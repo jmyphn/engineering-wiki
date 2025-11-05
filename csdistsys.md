@@ -6,7 +6,7 @@ permalink: /csmajor-distsys/
 \
 \
 [Home](/) → [Computer Science](/csmajor/) → Distributed Systems
-
+# CS Major - Distributed Systems 🌎
 Field of study on the design, construction, and analysis of large-scale systems.\
 Relevant courses:
 - CS 4320 - Intro to Databases
