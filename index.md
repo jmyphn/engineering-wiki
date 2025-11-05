@@ -4,11 +4,10 @@ Welcome to the Cornell Engineering Wiki! This comprehensive guide offers everyth
 
 ## How to use this Wiki
 
-Start by choosing a major below.
+Start by choosing a major below!
 
 ## Choosing a Major
-Click the below links to view the available majors!
+Click the below links to view the available majors and their concentrations!
 
 - [Computer Science](/csmajor/)
 - [Electrical & Computer Engineering](/ecemajor/)
-
