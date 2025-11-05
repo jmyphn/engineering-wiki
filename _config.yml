@@ -1,6 +1,10 @@
 author: Aleen
 email: aleen42@vip.qq.com
 
+# GitHub Pages settings
+baseurl: "/engineering-wiki" # the subpath of your site, e.g. /blog
+url: "https://jmyphn.github.io" # the base hostname & protocol for your site
+
 color-mode: "dark"
 # theme-color: "#1e2327"
 

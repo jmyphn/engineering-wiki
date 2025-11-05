@@ -5,7 +5,7 @@ permalink: /csmajor-datasci/
 ---
 \
 \
-[Home](/) → [Computer Science](/csmajor/) → Data Science
+[Home]({{ '/' | relative_url }}) → [Computer Science]({{ '/csmajor/' | relative_url }}) → Data Science
 
 # CS Major - Data Science 🔢        
 Interdiciplinary field of study that uses algorithms and systems to extrapolate knowledge from data.\

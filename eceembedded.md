@@ -5,7 +5,7 @@ permalink: /ecemajor-embedded/
 ---
 \
 \
-[Home](/) → [Computer Science](/ecemajor/) → Embedded Systems
+[Home]({{ '/' | relative_url }}) → [Electrical & Computer Engineering]({{ '/ecemajor/' | relative_url }}) → Embedded Systems
 
 # ECE Major - Embedded Systems 💻       
 Field of study on the developing computing systems that integrate hardware and software for real-world application.\

@@ -5,7 +5,7 @@ permalink: /ecemajor-robotics/
 ---
 \
 \
-[Home](/) → [Computer Science](/ecemajor/) → Robotics
+[Home]({{ '/' | relative_url }}) → [Electrical & Computer Engineering]({{ '/ecemajor/' | relative_url }}) → Robotics
 
 # ECE Major - Robotics 🤖                 
 Field of interdisciplinary study on the design, contruction, and deployment of physical robots and robotic automation algorithms.\

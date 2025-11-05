@@ -9,5 +9,5 @@ Start by choosing a major below!
 ## Choosing a Major
 Click the below links to view the available majors and their concentrations!
 
-- [Computer Science](/csmajor/)
-- [Electrical & Computer Engineering](/ecemajor/)
+- [Computer Science]({{ '/csmajor/' | relative_url }})
+- [Electrical & Computer Engineering]({{ '/ecemajor/' | relative_url }})

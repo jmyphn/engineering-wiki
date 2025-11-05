@@ -5,11 +5,11 @@ permalink: /csmajor/
 ---
 \
 \
-[Home](/) → Computer Science
+[Home]({{ '/' | relative_url }}) → Computer Science
 
 # CS Major
 
-## [Machine Learning 🧠](/csmajor-mlearn/)        
+## [Machine Learning 🧠]({{ '/csmajor-mlearn/' | relative_url }})        
 Field of study on how artificial intelligence algorithms learn how to perform tasks.\
 Relevant Courses:
 - CS 3780 - Intro to Machine Learning
@@ -27,8 +27,7 @@ Relevant Courses:
 - CS 6785 - Deep Probabilistic and Generative Models
 - CS 6787 - Advanced Machine Learning Systems
 
-<<<<<<< HEAD
-## [Robotics 🤖](/csmajor-robotics/)                 
+## [Robotics 🤖]({{ '/csmajor-robotics/' | relative_url }})                 
 Field of interdisciplinary study on the design, contruction, and  deployment of physical robots and robotic automation algorithms.\
 Relevant Courses: 
 - CS 4750 - Foundations of Robotics
@@ -39,7 +38,7 @@ Relevant Courses:
 - CS 6756 - Learning for Robot Decision Making
 
 
-## [Low-Level Systems ⚙️](/csmajor-comparch/)       
+## [Low-Level Systems ⚙️]({{ '/csmajor-comparch/' | relative_url }})       
 Field of study on the design and construction of computer systems and their component parts.\
 Relevant Courses: 
 - ECE 2300 - Digital Logic and Computer Organization
@@ -57,7 +56,7 @@ Relevant Courses:
 - CS 6230 - Parallel Architectures, Algorithms, and Applications
 - ECE 6775 - High-Level Digital Design Automation
 
-## [Distributed Systems 🌎](/csmajor-distsys/)
+## [Distributed Systems 🌎]({{ '/csmajor-distsys/' | relative_url }})
 Field of study on the design, construction, and analysis of large-scale systems.\
 Relevant courses:
 - CS 4320 - Intro to Databases
@@ -75,7 +74,7 @@ Relevant courses:
 - CS 6450 - Advanced Computer Networking
 - ECE 6960 - Datacenter Networking Systems 
 
-## [Data Science 🔢](/csmajor-datasci/)       
+## [Data Science 🔢]({{ '/csmajor-datasci/' | relative_url }})       
 Interdiciplinary field of study that uses algorithms and systems to extrapolate knowledge from data.\
 Relevant Courses: 
 - ENGRD 2720 - Data Science for Engineers
@@ -84,21 +83,3 @@ Relevant Courses:
 - CS 5304 - Data Science in the Wild
 - CS 6368 - Data to Decisions: Principles of Efficient Data Science
 - ORIE 3120 - Practical Tools for Operations Research, Machine Learning and Data Science
-=======
-[|Machine Learning|🧠](csmlearn.md)        
-    Field of study on how artificial intelligence algorithms learn how to perform tasks.\
-    Relevant Courses: CS 3780, CS 3700, CS 4782, CS 4787, CS 4789
-
-[|Robotics|🤖](csrobotics.md)                 
-    Field of interdisciplinary study on the design, contruction, and  deployment of physical robots and robotic automation algorithms.\
-    Relevant Courses: CS 4758, ECE 4160, ECE 4180
-
-
-[|Computer Architecture|⚙️](csdatasci.md)       
-    Field of study on the design and construction of computer systems and their component parts.\
-    Relevant Courses: CS 3420, ECE 5725, CS 4420, CS 5420
-
-[|Data Science|🔢](cscomparch.md)       
-    Interdiciplinary field of study that uses algorithms and systems to extrapolate knowledge from data.\
-    Relevant Courses: CS 5304, CS 6368, CS 5322, ORIE 3120
->>>>>>> 47115bfb531f69fea0cb88f7182f153ee7e4aa86

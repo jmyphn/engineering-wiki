@@ -6,11 +6,11 @@ permalink: /ecemajor/
 
 \
 \
-[Home](/) → Electrical & Computer Engineering
+[Home]({{ '/' | relative_url }}) → Electrical & Computer Engineering
 
 # ECE Major
 
-## Power Systems🔌        
+## Power Systems 🔌        
 Field of study on the generation, transmission, distribution, and control of electrical power.\
 Relevant Courses: 
 - ECE 4800
@@ -18,7 +18,7 @@ Relevant Courses:
 - ECE 4560
 - ECE 4520
 
-## Robotics🤖                 
+## Robotics 🤖                 
 Field of interdisciplinary study on the design, contruction, and deployment of physical robots and robotic automation algorithms.\
 Relevant Courses: 
 - ECE 4160
@@ -27,7 +27,6 @@ Relevant Courses:
 - ECE 4760 
 - ECE 4770
 
-<<<<<<< HEAD
 ## Embedded Systems 💻       
 Field of study on the developing computing systems that integrate hardware and software for real-world application.\
 Relevant Courses: 
@@ -43,20 +42,3 @@ Relevant Courses:
 - ECE 4530
 - ECE 4560
 - ECE 4880
-=======
-[|Power Systems|🔌](ecepower.md)        
-    Field of study on the generation, transmission, distribution, and control of electrical power.\
-    Relevant Courses: ECE 4800, ECE 4510, ECE 4560, ECE 4520
-
-[|Robotics|🤖](ecerobotics.md)                 
-    Field of interdisciplinary study on the design, contruction, and deployment of physical robots and robotic automation algorithms.\
-    Relevant Courses: ECE 4160, ECE 4240, ECE 4180, ECE 4760, ECE 4770
-
-[|Embedded Systems|💻](eceembedded.md)       
-    Field of study on the developing computing systems that integrate hardware and software for real-world application.\
-    Relevant Courses: ECE 3400, ECE 4760, ECE 5760, ECE 5725
-
-[|Analog/RF Circuit Design|](ecerf.md)        
-    Field of study focused on the design and innovation of electronic systems and integrated circuits for efficiency and functionality in modern technology.\
-    Relevant Courses: ECE 4330, ECE 4530, ECE 4560, ECE 4880
->>>>>>> 47115bfb531f69fea0cb88f7182f153ee7e4aa86
