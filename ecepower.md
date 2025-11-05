@@ -7,7 +7,7 @@ permalink: /ecemajor-powersystems/
 
 |Power Systems|🔌        
     Field of study on the generation, transmission, distribution, and control of electrical power.\
-    Relevant Courses: 
+    Relevant Courses:   
     ECE 4800  
     ECE 4510   
     ECE 4560   

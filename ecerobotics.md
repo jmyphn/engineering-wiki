@@ -7,7 +7,7 @@ permalink: /ecemajor-robotics/
 
 |Robotics|🤖                 
     Field of interdisciplinary study on the design, contruction, and deployment of physical robots and robotic automation algorithms.\
-    Relevant Courses: 
+    Relevant Courses:   
     ECE 4160  
     ECE 4240   
     ECE 4180    

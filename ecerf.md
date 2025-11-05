@@ -7,7 +7,7 @@ permalink: /ecemajor-analog-rf/
 
 |Analog/RF Circuit Design|⚡        
     Field of study focused on the design and innovation of electronic systems and integrated circuits for efficiency and functionality in modern technology.\
-    Relevant Courses: 
+    Relevant Courses:   
     ECE 4330  
     ECE 4530   
     ECE 4560   
