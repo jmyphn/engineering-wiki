@@ -9,6 +9,7 @@ permalink: /csmajor-mlearn/
 
 # CS Major - Machine Learning
 
+<<<<<<< HEAD
 Machine Learning 🧠        
 Field of study on how artificial intelligence algorithms learn how to perform tasks.\
 Relevant Courses:
@@ -26,3 +27,13 @@ Relevant Courses:
   - Generative AI
 - CS 6785 - Deep Probabilistic and Generative Models
 - CS 6787 - Advanced Machine Learning Systems
+=======
+|Machine Learning|🧠        
+    Field of study on how artificial intelligence algorithms learn how to perform tasks.\
+    Relevant Courses:   
+    CS 3780    
+    CS 3700   
+    CS 4782   
+    CS 4787  
+     
+>>>>>>> 47115bfb531f69fea0cb88f7182f153ee7e4aa86
