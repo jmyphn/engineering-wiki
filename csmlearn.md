@@ -8,8 +8,8 @@ permalink: /csmajor-mlearn/
 |Machine Learning|🧠        
     Field of study on how artificial intelligence algorithms learn how to perform tasks.\
     Relevant Courses:   
-    CS3780    
-    CS3700   
-    CS4782   
-    CS4787  
-    CS478  
+    CS 3780    
+    CS 3700   
+    CS 4782   
+    CS 4787  
+     

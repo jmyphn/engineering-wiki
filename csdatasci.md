@@ -8,7 +8,7 @@ permalink: /csmajor-datasci/
 |Data Science|🔢        
     Interdiciplinary field of study that uses algorithms and systems to extrapolate knowledge from data.\
     Relevant Courses:  
-    CS5304  
-    CS6368  
-    CS5322  
-    ORIE3120  
+    CS 5304  
+    CS 6368  
+    CS 5322  
+    ORIE 3120  

@@ -7,7 +7,7 @@ permalink: /csmajor-comparch/
 |Computer Architecture|⚙️       
     Field of study on the design and construction of computer systems and their component parts.\
     Relevant Courses:  
-    CS3420  
-    ECE5725  
-    CS4420  
-    CS5420  
+    CS 3420  
+    ECE 5725  
+    CS 4420  
+    CS 5420  

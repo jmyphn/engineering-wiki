@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Robotics Page
+title: CS Robotics Page
 permalink: /csmajor-robotics/
 ---
 # CS Major - Robotics
@@ -8,6 +8,6 @@ permalink: /csmajor-robotics/
 |Robotics|🤖                 
     Field of interdisciplinary study on the design, contruction, and  deployment of physical robots and robotic automation algorithms.
     Relevant Courses:  
-    CS4758   
-    ECE4160   
-    ECE4180  
+    CS 4758   
+    ECE 4160   
+    ECE 4180  
