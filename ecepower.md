@@ -94,7 +94,7 @@ flowchart TD
 - Signals & Systems (ECE 3250)
 - Circuits (ECE 2100)
 
-- *Mainly for MAE 5010
+*Mainly for MAE 5010
 
 ## Helpful Non-Core Courses:
 - Microelectronics (ECE 3150)
