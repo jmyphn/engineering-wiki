@@ -26,7 +26,7 @@ flowchart TD
     subgraph A1[Prereqs]
         A1a[Python/Matlab]
         A1b[Linear Algebra]
-        A1c[Calculus I, II, III]
+        A1c[Calculus II, III]
         A1e[Thermodynamics]
         A1f[Probability]
         A1g[Signals& Systems]
@@ -81,8 +81,24 @@ flowchart TD
     A1c --> E1a
     A1h --> G1a
     A1a --> C1a
+    A1f --> D1a
+    A1h --> D1a
     A1a --> E1a
 ```
+## Prequisites:
+    -Programming in Python/Matlab (CS 1110/1112)
+    -Linear Algebra (MATH 2940)
+    -Calculus II, III (MATH 1910, 1920)
+    -Thermodynamics* (ENGRD 2210)
+    -Probability (ECE 3100)
+    -Signals & Systems (ECE 3250)
+    -Circuits (ECE 2100)
+
+    *Mainly for MAE 5010
+
+## Helpful Non-Core Courses:
+    -Microelectronics (ECE 3150)
+
 ## Core Courses:   
 - **ECE 4800 - Optimal Systems Analysis**  
     Introduction to optimization theory and algorithms for system analysis and design. Topics include linear programming, convex programming, duality. We may touch dynamic programming around the end if time permits. Application will be discussed in various areas including geometric problems, networks, control, circuits, signal processing, and communications.
@@ -102,5 +118,5 @@ flowchart TD
 - **ECE 5880 - Energy Seminar II**  
     Energy Seminars will continue to explore energy-related topics of emerging, contemporary and historical interest. An abbreviated list of subjects explored in the seminars includes: global energy resources, energy generation technologies (present and future), energy storage options, environmental impacts and climate change mitigation, energy policy, and energy delivery economics and systems. Seminar speakers will be distinguished practicing engineers and executives from industry and government as well as faculty members from several departments at Cornell, and other academic institutions.
 
-- **MAE 5010 - FutureEnergy Systems**  
+- **MAE 5010 - Future Energy Systems**  
     Critically examines the technology of energy systems that will be acceptable in a world faced with global climate change, local pollution, and declining supplies of oil. The focus is on renewable energy sources (wind, solar, biomass), but other non-carbon-emitting sources (nuclear) and lowered-carbon sources (co-generative gas turbine plants, fuel cells) also are studied. Both the devices and the overall systems are analyzed. The course explains calculations to support capacity, efficiency, and productivity of renewable energy. Cost and economics of renewables are explored as well, along with the connection to U.S. and global climate and energy policy.
