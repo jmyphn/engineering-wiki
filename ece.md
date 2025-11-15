@@ -31,7 +31,7 @@ Career Paths: Embedded Systems Engineer, FPGA Engineer, Firmware Engineer, Syste
 ## [Analog/RF Circuit Design ⚡]({{ '/ecemajor-analog-rf/' | relative_url }})         
 Field of study focused on the design and innovation of electronic systems and integrated circuits for efficiency and functionality in modern technology. Involves the analysis and manipulation of signals within analog systems.
 
-Career Paths: Analog Circuit Engineer, RF Design Engineer, IC Design Engineer, PCB Layout Engineer, Power Electroncis Engineer
+Career Paths: Analog Circuit Engineer, RF Design Engineer, IC Design Engineer, PCB Layout Engineer, Power Electronics Engineer
 
 ## [Telecommunications 📶]({{ '/ecemajor-telecom/' | relative_url }})
 Field of study focused on the transmission of information over long distances via electrical or electronic means. Involves the design and development of communication systems using cables, radio waves, digital networks and other technologies. 
