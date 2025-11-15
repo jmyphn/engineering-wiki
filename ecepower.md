@@ -86,18 +86,18 @@ flowchart TD
     A1a --> E1a
 ```
 ## Prequisites:
-    -Programming in Python/Matlab (CS 1110/1112)
-    -Linear Algebra (MATH 2940)
-    -Calculus II, III (MATH 1910, 1920)
-    -Thermodynamics* (ENGRD 2210)
-    -Probability (ECE 3100)
-    -Signals & Systems (ECE 3250)
-    -Circuits (ECE 2100)
+- Programming in Python/Matlab (CS 1110/1112)
+- Linear Algebra (MATH 2940)
+- Calculus II, III (MATH 1910, 1920)
+- Thermodynamics* (ENGRD 2210)
+- Probability (ECE 3100)
+- Signals & Systems (ECE 3250)
+- Circuits (ECE 2100)
 
-    *Mainly for MAE 5010
+- *Mainly for MAE 5010
 
 ## Helpful Non-Core Courses:
-    -Microelectronics (ECE 3150)
+- Microelectronics (ECE 3150)
 
 ## Core Courses:   
 - **ECE 4800 - Optimal Systems Analysis**  
