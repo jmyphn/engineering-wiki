@@ -29,7 +29,7 @@ flowchart TD
         A1c[Calculus I, II, III]
         A1e[Thermodynamics]
         A1f[Probability]
-        A1g [Signals& Systems]
+        A1g[Signals& Systems]
         A1h[Circuits]
 
     end
@@ -73,7 +73,7 @@ flowchart TD
     C1a --> D1a
     G1a --> H1a
     A1e --> I1a
-    D1a -->F1a
+    D1a --> F1a
     F1a --> F1b
     I1a --> F1a
     A1g --> D1a
@@ -84,23 +84,23 @@ flowchart TD
     A1a --> E1a
 ```
 ## Core Courses:   
-- **ECE 4800 - Optimal Systems Analysis**
+- **ECE 4800 - Optimal Systems Analysis**  
     Introduction to optimization theory and algorithms for system analysis and design. Topics include linear programming, convex programming, duality. We may touch dynamic programming around the end if time permits. Application will be discussed in various areas including geometric problems, networks, control, circuits, signal processing, and communications.
 
-- **ECE 4510 - Power Systems I**
+- **ECE 4510 - Power Systems I**  
     Acquaints students with modern electric power system modeling, analysis and computation. Stresses analysis techniques appropriate for power system modeling, analysis and power flow computation. Topics include transmission line models, transformers and per unit system, generator models, network matrices, power flow analysis and computation, real and reactive power control, voltage control, economic dispatch
 
-- **ECE 4560 - Power Electronics**
+- **ECE 4560 - Power Electronics**  
     The course will also introduce seniors and first-year graduate students to other advanced topics which are required for the analysis and design of power converters, including power semiconductor device modeling, thermal modeling, magnetic component modeling, electromagnetic interference (EMI) filter design, and switching converter control design, at a level appropriate for them. This course will equip ECE students with the theoretical and practical skills needed to innovate in the area of power electronics, and allow them to succeed in graduate school and in the rapidly growing job market for power electronic engineers.
 
-- **ECE 4520 - Power Systems II**
+- **ECE 4520 - Power Systems II**  
     Examines the operations of electric power systems, the smart grid, and electricity markets. Topics include modeling of power systems, power flow analysis, economic dispatch, optimal power flow, unit commitments, electricity markets, demand response, smart grid technology, and transactive energy.
 
-- **ECE 5870 - Energy Seminar I**
+- **ECE 5870 - Energy Seminar I**  
     Energy Seminars will explore energy-related topics of emerging, contemporary and historical interest. An abbreviated list of subjects explored in the seminars includes: global energy resources, energy generation technologies (present and future), energy storage options, environmental impacts and climate change mitigation, energy policy, and energy delivery economics and systems. Seminar speakers will be distinguished practicing engineers and executives from industry and government as well as faculty members from several departments at Cornell, and other academic institutions.
 
-- **ECE 5880 - Energy Seminar II**
+- **ECE 5880 - Energy Seminar II**  
     Energy Seminars will continue to explore energy-related topics of emerging, contemporary and historical interest. An abbreviated list of subjects explored in the seminars includes: global energy resources, energy generation technologies (present and future), energy storage options, environmental impacts and climate change mitigation, energy policy, and energy delivery economics and systems. Seminar speakers will be distinguished practicing engineers and executives from industry and government as well as faculty members from several departments at Cornell, and other academic institutions.
 
-- **MAE 5010 - FutureEnergy Systems**
+- **MAE 5010 - FutureEnergy Systems**  
     Critically examines the technology of energy systems that will be acceptable in a world faced with global climate change, local pollution, and declining supplies of oil. The focus is on renewable energy sources (wind, solar, biomass), but other non-carbon-emitting sources (nuclear) and lowered-carbon sources (co-generative gas turbine plants, fuel cells) also are studied. Both the devices and the overall systems are analyzed. The course explains calculations to support capacity, efficiency, and productivity of renewable energy. Cost and economics of renewables are explored as well, along with the connection to U.S. and global climate and energy policy.
