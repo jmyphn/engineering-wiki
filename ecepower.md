@@ -82,7 +82,7 @@ flowchart TD
     A1h --> G1a
     A1a --> C1a
     A1a --> E1a
-
+```
 ## Core Courses:   
 - **ECE 4800 - Optimal Systems Analysis**
     Introduction to optimization theory and algorithms for system analysis and design. Topics include linear programming, convex programming, duality. We may touch dynamic programming around the end if time permits. Application will be discussed in various areas including geometric problems, networks, control, circuits, signal processing, and communications.
