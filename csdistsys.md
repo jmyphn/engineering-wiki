@@ -12,15 +12,6 @@ Field of study on the design, construction, and analysis of large-scale systems.
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> B[Core Systems]
-  B --> C[Distributed Systems]
-  C --> D[Cloud]
-  C --> E[Security]
-  C --> F[ML Systems]
-  C --> G[Advanced Systems]
-  B --> H[Advanced Networking]
-  H --> I[Datacenter Networking]
-
   subgraph A1[Prerequisites]
     A1a[Systems Programming]
     A1b[Operating Systems]

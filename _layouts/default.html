@@ -14,6 +14,90 @@
         href="https://github.githubassets.com/favicons/favicon.png">
     <link rel="icon" class="js-site-favicon" type="image/svg+xml"
         href="https://github.githubassets.com/favicons/favicon.svg">
+    <style>
+        /* Course Modal Styles */
+        .course-modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.2s ease-in;
+        }
+
+        .course-modal-overlay.show {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .course-modal-content {
+            background-color: var(--color-canvas-default, #fff);
+            border-radius: 6px;
+            padding: 24px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            margin: 20px;
+        }
+
+        #courseModalBody {
+            color: #1f2328;
+        }
+
+        #courseModalBody h2 {
+            color: #1f2328;
+        }
+
+        #courseModalBody p {
+            color: #1f2328;
+        }
+
+        .course-modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #656d76;
+            background: none;
+            border: none;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+
+        .course-modal-close:hover {
+            color: #1f2328;
+        }
+
+        .mermaid-container svg g.node {
+            cursor: pointer;
+        }
+
+        .mermaid-container svg g.node:hover {
+            opacity: 0.8;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,6 +106,14 @@
         {{ content }}
     </div>
     {% include footer.html %}
+
+    <!-- Course Modal -->
+    <div id="courseModal" class="course-modal-overlay">
+        <div class="course-modal-content">
+            <button class="course-modal-close" id="courseModalClose" aria-label="Close">×</button>
+            <div id="courseModalBody"></div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -43,9 +135,270 @@
                     securityLevel: 'loose',
                     theme: prefersDark ? 'dark' : 'default'
                 });
-                mermaid.init();
+                mermaid.init().then(function () {
+                    // Parse course data from the page
+                    parseCoursesAndAttachHandlers();
+                });
             }
         });
+
+        function parseCoursesAndAttachHandlers() {
+            // Parse course data from Core Courses section
+            var courses = {};
+            var courseHeaders = Array.from(document.querySelectorAll('h2'));
+
+            var courseSection = courseHeaders.find(function (h) {
+                return h.textContent.includes('Core Courses');
+            });
+
+            if (courseSection) {
+                var nextEl = courseSection.nextElementSibling;
+
+                while (nextEl && nextEl.tagName !== 'UL' && nextEl.tagName !== 'H2') {
+                    nextEl = nextEl.nextElementSibling;
+                }
+
+                if (nextEl && nextEl.tagName === 'UL') {
+                    var listItems = nextEl.querySelectorAll('li');
+                    listItems.forEach(function (li) {
+                        var strongEl = li.querySelector('strong');
+                        if (strongEl) {
+                            var courseText = strongEl.textContent.trim();
+                            var courseMatch = courseText.match(/^([A-Z]+\s+\d+)\s*-\s*(.+)$/);
+                            if (courseMatch) {
+                                var courseCode = courseMatch[1].trim();
+                                var courseName = courseMatch[2].trim();
+                                var course = {
+                                    code: courseCode,
+                                    name: courseName,
+                                    details: []
+                                };
+
+                                // Get detail items
+                                var detailList = li.querySelector('ul');
+                                if (detailList) {
+                                    detailList.querySelectorAll('li').forEach(function (detailLi) {
+                                        course.details.push(detailLi.textContent.trim());
+                                    });
+                                }
+
+                                courses[courseCode] = course;
+                            }
+                        }
+                    });
+                }
+            }
+
+            // Setup modal
+            var modal = document.getElementById('courseModal');
+            var modalBody = document.getElementById('courseModalBody');
+            var closeBtn = document.getElementById('courseModalClose');
+            var justOpened = false;
+            var modalOpenTime = 0;
+
+            function showCourseModal(course) {
+                if (!course) return;
+
+                // Prevent multiple rapid opens (within 200ms)
+                var now = Date.now();
+                if (now - modalOpenTime < 200) {
+                    return;
+                }
+                modalOpenTime = now;
+
+                justOpened = true;
+                var html = '<h2>' + course.code + ' - ' + course.name + '</h2>';
+                course.details.forEach(function (detail) {
+                    if (detail.trim()) {
+                        // Check if detail starts with a label that should be bolded
+                        var labels = ['What you\'ll learn:', 'Essential?', 'Recommended workflow:', 'Prereqs and why:'];
+                        var formattedDetail = detail;
+
+                        for (var i = 0; i < labels.length; i++) {
+                            if (detail.trim().startsWith(labels[i])) {
+                                var label = labels[i];
+                                var content = detail.trim().substring(label.length).trim();
+                                formattedDetail = '<strong>' + label + '</strong>' + (content ? ' ' + content : '');
+                                break;
+                            }
+                        }
+
+                        html += '<p style="margin: 8px 0;">' + formattedDetail + '</p>';
+                    }
+                });
+                modalBody.innerHTML = html;
+                modal.classList.add('show');
+                setTimeout(function () {
+                    justOpened = false;
+                }, 100);
+            }
+
+            function closeModal() {
+                if (justOpened) return;
+                modal.classList.remove('show');
+            }
+
+            closeBtn.onclick = closeModal;
+            modal.onclick = function (e) {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            };
+
+            // Attach click handlers to Mermaid nodes
+            function attachClickHandlers() {
+                var mermaidSvgs = document.querySelectorAll('.mermaid svg');
+
+                if (mermaidSvgs.length === 0) {
+                    setTimeout(attachClickHandlers, 200);
+                    return;
+                }
+
+                var clickableCount = 0;
+
+                mermaidSvgs.forEach(function (svg) {
+                    var nodeGroups = Array.from(svg.querySelectorAll('g.node, g[class*="node"]'));
+
+                    nodeGroups.forEach(function (nodeGroup, index) {
+                        if (nodeGroup.dataset.clickable === 'true') return;
+
+                        // Only process nodes that have shapes (actual nodes, not container groups)
+                        var hasShape = nodeGroup.querySelector('rect, circle, polygon, ellipse, path');
+                        if (!hasShape) return;
+
+                        // Try multiple methods to get text from Mermaid nodes
+                        // IMPORTANT: Only get text from the specific node, not nested groups
+                        var fullText = '';
+
+                        // Method 1: HTML foreignObject (Mermaid often uses this for labels) - most reliable
+                        var foreignObject = nodeGroup.querySelector('foreignObject');
+                        var htmlText = '';
+                        if (foreignObject) {
+                            htmlText = foreignObject.textContent.trim() || foreignObject.innerText.trim();
+                        }
+
+                        // Method 2: nodeLabel class - also reliable
+                        var nodeLabel = nodeGroup.querySelector('.nodeLabel');
+                        var labelText = '';
+                        if (nodeLabel) {
+                            labelText = nodeLabel.textContent.trim() || nodeLabel.innerText.trim();
+                        }
+
+                        // Method 3: SVG text elements (only direct children to avoid nested groups)
+                        // Get text elements that are direct children or within foreignObject/nodeLabel
+                        var textElements = [];
+                        if (foreignObject) {
+                            textElements = foreignObject.querySelectorAll('text, tspan, span, div');
+                        } else if (nodeLabel) {
+                            textElements = nodeLabel.querySelectorAll('text, tspan, span, div');
+                        } else {
+                            // Only get direct child text elements
+                            Array.from(nodeGroup.children).forEach(function (child) {
+                                if (child.tagName === 'text' || child.tagName === 'tspan') {
+                                    textElements.push(child);
+                                }
+                            });
+                        }
+
+                        var svgText = Array.from(textElements)
+                            .map(function (t) { return t.textContent.trim(); })
+                            .filter(function (t) { return t.length > 0; })
+                            .join(' ')
+                            .trim();
+
+                        // Prefer htmlText or labelText (more specific), fallback to svgText
+                        // DO NOT use nodeGroup.textContent as it includes nested groups!
+                        fullText = (htmlText || labelText || svgText).trim();
+
+                        if (fullText) {
+                            var courseCodeMatch = fullText.match(/([A-Z]+\s+\d+)/);
+
+                            if (courseCodeMatch) {
+                                var courseCode = courseCodeMatch[1].trim();
+
+                                // Check if this node contains other course nodes (skip parent containers)
+                                var hasNestedCourseNodes = false;
+                                var nestedNodes = nodeGroup.querySelectorAll('g.node, g[class*="node"]');
+                                nestedNodes.forEach(function (nested) {
+                                    if (nested !== nodeGroup) {
+                                        var nestedText = '';
+                                        var nestedFO = nested.querySelector('foreignObject');
+                                        var nestedLabel = nested.querySelector('.nodeLabel');
+                                        if (nestedFO) nestedText = nestedFO.textContent.trim();
+                                        else if (nestedLabel) nestedText = nestedLabel.textContent.trim();
+
+                                        if (nestedText && nestedText.match(/([A-Z]+\s+\d+)/)) {
+                                            hasNestedCourseNodes = true;
+                                        }
+                                    }
+                                });
+
+                                // Skip if this node contains other course nodes (it's a container)
+                                if (hasNestedCourseNodes) {
+                                    return;
+                                }
+
+                                if (courses[courseCode]) {
+                                    clickableCount++;
+                                    nodeGroup.dataset.clickable = 'true';
+                                    nodeGroup.dataset.courseCode = courseCode; // Store course code on node
+                                    nodeGroup.style.cursor = 'pointer';
+
+                                    // Hover effect
+                                    var rect = nodeGroup.querySelector('rect, circle, polygon, ellipse, path');
+                                    if (rect) {
+                                        var originalFill = rect.getAttribute('fill') || '';
+                                        nodeGroup.addEventListener('mouseenter', function () {
+                                            var r = nodeGroup.querySelector('rect, circle, polygon, ellipse, path');
+                                            if (r) r.style.fill = 'rgba(59, 130, 246, 0.3)';
+                                        });
+                                        nodeGroup.addEventListener('mouseleave', function () {
+                                            var r = nodeGroup.querySelector('rect, circle, polygon, ellipse, path');
+                                            if (r) r.style.fill = originalFill;
+                                        });
+                                    }
+
+                                    // Click handler - use the stored course code from the node
+                                    var clickHandler = function (e) {
+                                        e.stopPropagation();
+                                        e.preventDefault();
+                                        e.stopImmediatePropagation(); // Prevent other handlers
+
+                                        // Get the course code from the node that was actually clicked
+                                        var clickedNode = e.currentTarget;
+                                        var targetCourseCode = clickedNode.dataset.courseCode;
+
+                                        // If clicking on a child element, find the parent node with course code
+                                        if (!targetCourseCode) {
+                                            var parent = clickedNode.closest('[data-course-code]');
+                                            if (parent) {
+                                                targetCourseCode = parent.dataset.courseCode;
+                                            }
+                                        }
+
+                                        if (targetCourseCode && courses[targetCourseCode]) {
+                                            showCourseModal(courses[targetCourseCode]);
+                                        }
+                                    };
+
+                                    nodeGroup.addEventListener('click', clickHandler, true);
+                                    nodeGroup.querySelectorAll('rect, circle, polygon, ellipse, path, text, tspan, foreignObject, .nodeLabel').forEach(function (el) {
+                                        el.style.cursor = 'pointer';
+                                        el.dataset.courseCode = courseCode; // Store on child elements too
+                                        el.addEventListener('click', clickHandler, true);
+                                    });
+                                }
+                            }
+                        }
+                    });
+                });
+            }
+
+            // Try attaching handlers with delays
+            setTimeout(attachClickHandlers, 500);
+            setTimeout(attachClickHandlers, 1000);
+            setTimeout(attachClickHandlers, 2000);
+        }
     </script>
 </body>
 
