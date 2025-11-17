@@ -15,35 +15,35 @@ Career Paths: Telecommunications Engineer, Network Engineer, RF Engineer, Satell
 ```mermaid
 flowchart TD
   subgraph A1[Prerequisites]
-    SIG[ECE 3250 - Signals & Systems]
-    PROB[ECE 3100 - Probability & Inference]
-    LA[Linear Algebra]
-    CALC[Calculus]
-    PROG[Programming (Python/Matlab)]
+    SIG["ECE 3250 - Signals & Systems"]
+    PROB["ECE 3100 - Probability & Inference"]
+    LA["Linear Algebra"]
+    CALC["Calculus"]
+    PROG["Programming (Python/Matlab)"]
   end
 
   subgraph F1[Foundations]
-    F1a[ECE 4210 - Communication Systems]
-    F1b[ECE 3250 - Signals & Systems]
+    F1a["ECE 4210 - Communication Systems"]
+    F1b["ECE 3250 - Signals & Systems"]
   end
 
-  subgraph P1[Physical]
-    GPS[ECE 4150 - GPS: Theory and Design]
+  subgraph P1[Physical Layer]
+    GPS["ECE 4150 - GPS: Theory and Design"]
   end
 
-  subgraph D1[Digital / Info]
-    DSP[ECE 4255 - Digital Signal Processing]
-    DCOM[ECE 4670 - Digital Communication System Design]
+  subgraph D1[Digital and Info]
+    DSP["ECE 4255 - Digital Signal Processing"]
+    DCOM["ECE 4670 - Digital Communication System Design"]
   end
 
-  subgraph W1[Wireless & Networks]
-    WIRE[ECE 4230 - Wireless Communications]
-    NET[ECE 4450 - Computer Networks & Telecommunications]
-    RAND[ECE 4110 - Random Signals in Communications]
+  subgraph W1[Wireless and Networks]
+    WIRE["ECE 4230 - Wireless Communications"]
+    NET["ECE 4450 - Computer Networks & Telecommunications"]
+    RAND["ECE 4110 - Random Signals in Communications"]
   end
 
   subgraph S1[Remote Sensing]
-    RAD[ECE 4870 - Radar / Remote Sensing]
+    RAD["ECE 4870 - Radar / Remote Sensing"]
   end
 
   SIG --> F1b
