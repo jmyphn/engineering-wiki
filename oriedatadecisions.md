@@ -52,7 +52,6 @@ flowchart TD
   C1a --> C1b
   C1a --> D1a
   C1b --> D1a
-
 ```
 
 ## Prerequisite Courses:
