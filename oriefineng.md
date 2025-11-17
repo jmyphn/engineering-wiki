@@ -42,26 +42,13 @@ flowchart TD
   end
 
   %% ===== LINKS =====
-  A1a --> B1a
-  A1a --> B1b
-  A1b --> B1b
-  A1b --> B1c
-  A1c --> B1b
-  A1c --> B1a
   A1d --> B1a
   A1d --> B1b
-  A1d --> B1c
-  A1e --> B1b
+  A1b --> B1b
   A1e --> B1c
-
-  B1a --> C1a
-  B1b --> C1a
-  B1c --> C1a
-
-  B1a --> D1a
-  B1b --> D1a
-  C1a --> D1b
-  D1a --> D1b
+  A1d --> C1a
+  A1d --> D1a
+  A1f --> D1b
 
 ```
 

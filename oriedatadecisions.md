@@ -17,9 +17,10 @@ flowchart TD
   %% ===== PREREQS =====
   subgraph A1[Prerequisites]
     A1a[CS 1110/1112 Intro to Python]
-    A1b[CS 2110 OO Programming]
+    A1b[CS 2110 Object Oriented Programming]
     A1c[MATH 2210/2940 Linear Algebra]
     A1d[ENGRD 2700 or ORIE 3500 Probability & Stats]
+    A1e[CS 2800 Mathematical Foundations of Computing]
   end
 
   %% ===== FOUNDATIONS =====
@@ -40,18 +41,15 @@ flowchart TD
   end
 
   %% ===== PATH LINKS =====
-  A1a --> B1b
-  A1a --> B1a
   A1b --> B1b
+  A1c --> B1b
   A1c --> B1a
-  A1d --> B1a
   A1d --> B1b
+  A1e --> B1b
+  A1a --> C1a
+  A1c --> C1a
+  A1d --> C1b
 
-  B1a --> C1a
-  B1b --> C1a
-  C1a --> C1b
-  C1a --> D1a
-  C1b --> D1a
 ```
 
 ## Prerequisite Courses:

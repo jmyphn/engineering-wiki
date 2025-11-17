@@ -36,22 +36,15 @@ flowchart TD
     C1b[ORIE 4130 Service System Modeling & Design]
   end
 
-  %% ===== LINKS FROM PREREQS =====
   A1a --> B1a
-  A1a --> B1b
-  A1b --> B1b
-  A1c --> B1a
-  A1d --> B1a
-  A1d --> B1b
   A1e --> B1a
-  A1e --> B1b
-  A1f --> C1b
+  A1f --> B1a
 
-  %% ===== LINKS BETWEEN CORE COURSES =====
-  B1a --> C1a
-  B1a --> C1b
-  B1b --> C1a
-  B1b --> C1b
+  A1d --> B1b
+  A1e --> B1b
+
+  A1d --> C1b
+  A1f --> C1b
 
 ```
 
