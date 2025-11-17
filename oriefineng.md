@@ -17,49 +17,59 @@ flowchart TD
   %% ===== PREREQS =====
   subgraph A1[Prerequisites]
     A1a[CS 1110/1112 Intro to Python]
-    A1b[CS 2110 OO Programming]
-    A1c[MATH 2210/2940 Linear Algebra]
-    A1d[ENGRD 2700 or ORIE 3500 Probability & Stats]
+    A1b[MATH 2210/2940 Linear Algebra]
+    A1c[MATH 1920/2930 Multivariable Calculus]
+    A1d[ENGRD 2700 & ORIE 3500 Probability & Stats]
+    A1e[ORIE 3300 Optimization I]
   end
 
   %% ===== FOUNDATIONS =====
-  subgraph B1[Foundations in Data & Optimization]
-    B1a[ORIE 3320 Optimization for AI]
-    B1b[ORIE 3741 Learning with Big Messy Data]
+  subgraph B1[Foundations in Financial Engineering]
+    B1a[ORIE 4600 Intro to Financial Engineering]
+    B1b[ORIE 4630 OR Tools for FE]
+    B1c[ORIE 4350 Game Theory / Mechanism Design]
   end
 
-  %% ===== CORE METHODS =====
-  subgraph C1[Core ML & Inference]
-    C1a[ORIE 4740 Statistical Data Mining I]
-    C1b["ORIE 4750 Foundations of Causal Inference (AY 26–27)"]
+  %% ===== RISK & EXTREME EVENTS =====
+  subgraph C1[Risk Modeling & Extreme Values]
+    C1a[ORIE 4656 Extreme Values in Finance]
   end
 
-  %% ===== ADVANCED DECISION SYSTEMS =====
-  subgraph D1[Advanced Intelligent Decision Systems]
-    D1a[ORIE 4570 Reinforcement Learning with OR Applications]
+  %% ===== ADVANCED STOCHASTIC MODELING =====
+  subgraph D1[Stochastic Calculus & Time Series]
+    D1a[ORIE 5550 Applied Time-Series Analysis]
+    D1b[ORIE 5600/5610 Stochastic Calculus I & II]
   end
 
-  %% ===== PATH LINKS =====
-  A1a --> B1b
+  %% ===== LINKS =====
   A1a --> B1a
+  A1a --> B1b
   A1b --> B1b
+  A1b --> B1c
+  A1c --> B1b
   A1c --> B1a
   A1d --> B1a
   A1d --> B1b
+  A1d --> B1c
+  A1e --> B1b
+  A1e --> B1c
 
   B1a --> C1a
   B1b --> C1a
-  C1a --> C1b
-  C1a --> D1a
-  C1b --> D1a
+  B1c --> C1a
+
+  B1a --> D1a
+  B1b --> D1a
+  C1a --> D1b
+  D1a --> D1b
+
 ```
 
 ## Prerequisite Courses:
-- Programming in Python — data wrangling, numerical computing, notebooks
-- Linear Algebra (e.g., MATH 2210/2940) — model representations, SVD/PCA, optimization basics
+- Programming in Python — data analysis, simulation, backtesting
+- Linear Algebra (e.g., MATH 2210/2940) — model representations, SVD/PCA, covariance matrices
 - Calculus (single & multi-variable) — gradients, optimization, continuous models
-- Probability & Statistics (e.g., ORIE 3500/ENGRD 2700) — inference, estimation, hypothesis testing
-- Data Structures & Algorithms — efficient processing and scalability
+- Probability & Statistics (e.g., ORIE 3500 & 3510, ENGRD 2700) — stochastic processes, risk measures
 
 ## Core Courses:  
 - **ORIE 4350 - Introduction to Game Theory**
