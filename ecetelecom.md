@@ -14,18 +14,12 @@ Career Paths: Telecommunications Engineer, Network Engineer, RF Engineer, Satell
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> F[Foundations]
-  F --> P[Physical Layer]
-  F --> D[Digital/Info Theory]
-  F --> W[Wireless & Networks]
-  F --> S[Signal Processing]
-
   subgraph A1[Prerequisites]
-    A1a[Signals & Systems]
-    A1b[Probability & Statistics]
-    A1c[Linear Algebra]
-    A1d[Calculus]
-    A1e[Programming (Python/Matlab)]
+    SIG[ECE 3250 - Signals & Systems]
+    PROB[ECE 3100 - Probability & Inference]
+    LA[Linear Algebra]
+    CALC[Calculus]
+    PROG[Programming (Python/Matlab)]
   end
 
   subgraph F1[Foundations]
@@ -34,34 +28,36 @@ flowchart TD
   end
 
   subgraph P1[Physical]
-    P1a[ECE 4150 - GPS: Theory and Design]
+    GPS[ECE 4150 - GPS: Theory and Design]
   end
 
-  subgraph D1[Digital/Info]
-    D1a[ECE 4255 - Digital Signal Processing]
-    D1b[ECE 4670 - Digital Communication System Design]
+  subgraph D1[Digital / Info]
+    DSP[ECE 4255 - Digital Signal Processing]
+    DCOM[ECE 4670 - Digital Communication System Design]
   end
 
   subgraph W1[Wireless & Networks]
-    W1a[ECE 4230 - Wireless Communications]
-    W1b[ECE 4450 - Computer Networks & Telecommunications]
-    W1c[ECE 4110 - Random Signals in Communications]
+    WIRE[ECE 4230 - Wireless Communications]
+    NET[ECE 4450 - Computer Networks & Telecommunications]
+    RAND[ECE 4110 - Random Signals in Communications]
   end
 
   subgraph S1[Remote Sensing]
-    S1a[ECE 4870 - Radar / Remote Sensing]
+    RAD[ECE 4870 - Radar / Remote Sensing]
   end
 
-  A1a --> F1b
-  A1c --> D1a
-  A1d --> F1a
-  A1e --> F1a
-  F1a --> P1a
-  F1b --> D1a
-  F1b --> D1b
-  D1b --> W1a
-  F1a --> W1b
-  F1a --> S1a
+  SIG --> F1b
+  PROB --> DCOM
+  LA --> DSP
+  CALC --> F1a
+  PROG --> F1a
+
+  F1a --> GPS
+  F1b --> DSP
+  F1b --> DCOM
+  DCOM --> WIRE
+  F1a --> NET
+  F1a --> RAD
 ```
 
 ## Prerequisite Courses:
