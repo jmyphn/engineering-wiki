@@ -101,45 +101,79 @@ flowchart TD
 
 ## Core Courses:   
 
+- **ECE 4800 - Optimal Systems Analysis**
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: Optimization theory and algorithms for system analysis and design — linear programming, convex programming, duality, and applied examples (networks, control, circuits, signal processing).</li>
+    <li>- Essential? Recommended for analytical foundations used across power systems and control problems.</li>
+    <li>- Recommended workflow: Take early once calculus/linear algebra background is solid; use alongside applied systems courses.</li>
+    <li>- Prereqs and why: Linear algebra and calculus (for convex analysis and algorithm derivations); programming helpful for implementations.</li>
+    </ul>
+  </details>
 
--**ECE 4800 - Optimal Systems Analysis**
-  - What you'll learn: Optimization theory and algorithms for system analysis and design — linear programming, convex programming, duality, and applied examples (networks, control, circuits, signal processing).
-  - Essential? Recommended for analytical foundations used across power systems and control problems.
-  - Recommended workflow: Take early once calculus/linear algebra background is solid; use alongside applied systems courses.
-  - Prereqs and why: Linear algebra and calculus (for convex analysis and algorithm derivations); programming helpful for implementations.
+- **ECE 4510 - Power Systems I**
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: Power system modeling and analysis — transmission line models, transformers and per‑unit systems, generator models, network matrices, power flow analysis, real/reactive power control, and voltage control.</li>
+    <li>- Essential? Yes. Forms the baseline course for further power systems study.</li>
+    <li>- Recommended workflow: Take as an early core course for the power track; follow with Power Systems II and power electronics.</li>
+    <li>- Prereqs and why: Circuits and signals (for network models), linear algebra (for network matrices), programming (for power flow computation).</li>
+    </ul>
+  </details>
 
-**ECE 4510 - Power Systems I**
-  - What you'll learn: Power system modeling and analysis — transmission line models, transformers and per‑unit systems, generator models, network matrices, power flow analysis, real/reactive power control, and voltage control.
-  - Essential? Yes. Forms the baseline course for further power systems study.
-  - Recommended workflow: Take as an early core course for the power track; follow with Power Systems II and power electronics.
-  - Prereqs and why: Circuits and signals (for network models), linear algebra (for network matrices), programming (for power flow computation).
-
-**ECE 4560 - Power Electronics**
-  - What you'll learn: Analysis and design of power converters — semiconductor device modeling, thermal and magnetic component modeling, EMI filter design, and switching converter control.
-  - Essential? Recommended for students pursuing power conversion or hardware-focused roles.
-  - Recommended workflow: Take after basic circuits and some power systems exposure; complement with lab/project work.
-  - Prereqs and why: Circuits and microelectronics background (device and component models); control basics helpful for converter control design.
+- **ECE 4560 - Power Electronics**
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: Analysis and design of power converters — semiconductor device modeling, thermal and magnetic component modeling, EMI filter design, and switching converter control.</li>
+    <li>- Essential? Recommended for students pursuing power conversion or hardware-focused roles.</li>
+    <li>- Recommended workflow: Take after basic circuits and some power systems exposure; complement with lab/project work.</li>
+    <li>- Prereqs and why: Circuits and microelectronics background (device and component models); control basics helpful for converter control design.</li>
+    </ul>
+  </details>
 
 - **ECE 4520 - Power Systems II**
-  - What you'll learn: Power system operations, smart grid concepts, electricity markets — power flow analysis, economic dispatch, optimal power flow, unit commitment, demand response, and transactive energy.
-  - Essential? Yes for students interested in operations, markets, and grid-level analysis.
-  - Recommended workflow: After Power Systems I; pair with optimization coursework for OPF/dispatch topics.
-  - Prereqs and why: Power Systems I and optimization (for economic dispatch and OPF); programming for simulations and market analysis.
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: Power system operations, smart grid concepts, electricity markets — power flow analysis, economic dispatch, optimal power flow, unit commitment, demand response, and transactive energy.</li>
+    <li>- Essential? Yes for students interested in operations, markets, and grid-level analysis.</li>
+    <li>- Recommended workflow: After Power Systems I; pair with optimization coursework for OPF/dispatch topics.</li>
+    <li>- Prereqs and why: Power Systems I and optimization (for economic dispatch and OPF); programming for simulations and market analysis.</li>
+    </ul>
+  </details>
 
 - **ECE 5870 - Energy Seminar I**
-  - What you'll learn: Broad energy topics — generation technologies, storage, environmental impacts, policy, and system economics via guest speakers and case studies.
-  - Essential? Useful for breadth and industry perspective; good for networking.
-  - Recommended workflow: Take anytime during the major, especially when exploring career directions.
-  - Prereqs and why: No strict technical prereqs; prior energy or systems exposure improves seminar discussions.
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: Broad energy topics — generation technologies, storage, environmental impacts, policy, and system economics via guest speakers and case studies.</li>
+    <li>- Essential? Useful for breadth and industry perspective; good for networking.</li>
+    <li>- Recommended workflow: Take anytime during the major, especially when exploring career directions.</li>
+    <li>- Prereqs and why: No strict technical prereqs; prior energy or systems exposure improves seminar discussions.</li>
+    </ul>
+  </details>
 
 - **ECE 5880 - Energy Seminar II**
-  - What you'll learn: Continued exploration of contemporary energy topics, policy, and technologies with varied speakers.
-  - Essential? Useful for continued breadth and exposure to current industry/research topics.
-  - Recommended workflow: Follow 5870 or take in a later term to deepen topical understanding.
-  - Prereqs and why: Similar to 5870; background in core energy concepts helps.
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: Continued exploration of contemporary energy topics, policy, and technologies with varied speakers.</li>
+    <li>- Essential? Useful for continued breadth and exposure to current industry/research topics.</li>
+    <li>- Recommended workflow: Follow 5870 or take in a later term to deepen topical understanding.</li>
+    <li>- Prereqs and why: Similar to 5870; background in core energy concepts helps.</li>
+    </ul>
+  </details>
 
 - **MAE 5010 - Future Energy Systems**
-  - What you'll learn: Analysis of renewable and other low‑carbon energy systems — capacity, efficiency, productivity, and economics; systems-level tradeoffs and policies.
-  - Essential? Recommended for students interested in energy systems, renewables, and policy intersection.
-  - Recommended workflow: Take after core power/energy exposure; useful for capstone or research in energy systems.
-  - Prereqs and why: Thermodynamics and basic power/energy background (for device/system analysis); economics/policy familiarity helpful but not mandatory.
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: Analysis of renewable and other low‑carbon energy systems — capacity, efficiency, productivity, and economics; systems-level tradeoffs and policies.</li>
+    <li>- Essential? Recommended for students interested in energy systems, renewables, and policy intersection.</li>
+    <li>- Recommended workflow: Take after core power/energy exposure; useful for capstone or research in energy systems.</li>
+    <li>- Prereqs and why: Thermodynamics and basic power/energy background (for device/system analysis); economics/policy familiarity helpful but not mandatory.</li>
+    </ul>
+  </details>
