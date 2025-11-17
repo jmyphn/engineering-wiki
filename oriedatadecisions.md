@@ -16,31 +16,30 @@ flowchart TD
 
   %% ===== PREREQS =====
   subgraph A1[Prerequisites]
-    A1a[CS 1110/1112<br/>Intro Python]
-    A1b[CS 2110<br/>OO Programming]
-    A1c[Linear Algebra<br/>MATH 2210/2940]
-    A1d[Probability & Stats<br/>ENGRD 2700 or ORIE 3500]
+    A1a[CS 1110/1112 Intro to Python]
+    A1b[CS 2110 OO Programming]
+    A1c[MATH 2210/2940 Linear Algebra]
+    A1d[ENGRD 2700 or ORIE 3500 Probability & Stats]
   end
 
   %% ===== FOUNDATIONS =====
   subgraph B1[Foundations in Data & Optimization]
-    B1a[ORIE 3320<br/>Optimization for AI]
-    B1b[ORIE 3741<br/>Learning with Big Messy Data]
+    B1a[ORIE 3320 Optimization for AI]
+    B1b[ORIE 3741 Learning with Big Messy Data]
   end
 
   %% ===== CORE METHODS =====
-  subgraph C1[Core Machine Learning & Inference]
-    C1a[ORIE 4740<br/>Statistical Data Mining I]
-    C1b[ORIE 4750<br/>Foundations of Causal Inference<br/>(AY 26–27 first offering)]
+  subgraph C1[Core ML & Inference]
+    C1a[ORIE 4740 Statistical Data Mining I]
+    C1b[ORIE 4750 Foundations of Causal Inference (AY 26–27)]
   end
 
   %% ===== ADVANCED DECISION SYSTEMS =====
   subgraph D1[Advanced Intelligent Decision Systems]
-    D1a[ORIE 4570<br/>Reinforcement Learning<br/>with OR Applications]
+    D1a[ORIE 4570 Reinforcement Learning with OR Applications]
   end
 
   %% ===== PATH LINKS =====
-
   A1a --> B1b
   A1a --> B1a
   A1b --> B1b
@@ -53,6 +52,7 @@ flowchart TD
   C1a --> C1b
   C1a --> D1a
   C1b --> D1a
+
 ```
 
 ## Prerequisite Courses:
@@ -65,12 +65,12 @@ flowchart TD
 ## Core Courses:  
 - **ORIE 3320 - Optimization for AI**
   - What you'll learn: theory, algorithms, and applications of nonlinear optimization
-  - Essential? Yes—real-world applications of optimization in machine learning & OR
+  - Essential? Yes, real-world applications of optimization in machine learning & OR
   - Recommended workflow: Take as ORIE elective
   - Prereqs and why: calculus and linear alegbra; necessary for solving optimization problems
 - **ORIE 3741 - Learning with Big messay Data**
   - What you'll learn: scalable, robust methods for learning from large datasets
-  - Essential? Yes—sets up the rest of the data, decisions, and AI concentration
+  - Essential? Yes, sets up the rest of the data, decisions, and AI concentration
   - Recommended workflow: after learning Python & linear algebra.
   - Prereqs and why: linear algebra, probability, data structures, and discrete math; all necessary to understand optimal ways to clean & analyze data.
 - **ORIE 4740 - Statistical Data Mining I**
