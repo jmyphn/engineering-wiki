@@ -31,7 +31,7 @@ flowchart TD
   %% ===== CORE METHODS =====
   subgraph C1[Core ML & Inference]
     C1a[ORIE 4740 Statistical Data Mining I]
-    C1b[ORIE 4750 Foundations of Causal Inference (AY 26–27)]
+    C1b["ORIE 4750 Foundations of Causal Inference (AY 26–27)"]
   end
 
   %% ===== ADVANCED DECISION SYSTEMS =====

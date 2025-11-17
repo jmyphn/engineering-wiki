@@ -9,7 +9,7 @@ permalink: /oriemajor/
 
 # ORIE Major
 
-## [Financial Engineering 📈]({{ '/csmajor-fineng/' | relative_url }})        
+## [Financial Engineering 📈]({{ '/oriemajor-fineng/' | relative_url }})        
 Field of study on quantitative analysis and management of financial instruments and risk. Includes developing mathematical models and implementing algorithms to measure risk and price financial instruments.
 
 Career paths: quantitative trading, risk management, portfolio management, financial analyst
