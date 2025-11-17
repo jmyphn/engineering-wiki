@@ -17,10 +17,10 @@ flowchart TD
   %% ===== PREREQS =====
   subgraph A1[Prerequisites]
     A1a[CS 1110/1112 Intro Python]
-    A1b[Data Structures & Algorithms (CS 2110 recommended)]
+    A1b[CS 2110 Data Structures]
     A1c[MATH 2210/2940 Linear Algebra]
     A1d[MATH 1920/2930 Multivariable Calculus]
-    A1e[ENGRD 2700 or ORIE 3500 Probability & Statistics]
+    A1e[ENGRD 2700 & ORIE 3500 Probability & Statistics]
   end
 
   %% ===== FOUNDATIONS =====
@@ -32,7 +32,7 @@ flowchart TD
   %% ===== CORE METHODS =====
   subgraph C1[Core Optimization Methods]
     C1a[ORIE 4330 Discrete Models]
-    C1b[ORIE 4340 Applications of Optimization - Modeling & Computation]
+    C1b[ORIE 4340 Applications of Optimization]
   end
 
   %% ===== ADVANCED & THEORY =====

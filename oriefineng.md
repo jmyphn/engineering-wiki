@@ -27,7 +27,7 @@ flowchart TD
   subgraph B1[Foundations in Financial Engineering]
     B1a[ORIE 4600 Intro to Financial Engineering]
     B1b[ORIE 4630 OR Tools for FE]
-    B1c[ORIE 4350 Game Theory / Mechanism Design]
+    B1c[ORIE 4350 Game Theory]
   end
 
   %% ===== RISK & EXTREME EVENTS =====
