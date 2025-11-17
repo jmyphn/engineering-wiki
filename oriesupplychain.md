@@ -15,76 +15,72 @@ Field of study on the design & execution of supply chains in various industries.
 flowchart TD
 
   %% ===== PREREQS =====
-  subgraph A1[Prerequisites]
-    A1a[CS 1110/1112<br/>Intro Python]
-    A1b[CS 2110<br/>OO Programming]
-    A1c[Linear Algebra<br/>MATH 2210/2940]
-    A1d[Probability & Stats<br/>ENGRD 2700 or ORIE 3500]
+  subgraph A1[Prerequisite Courses]
+    A1a[CS 1110/1112 Intro to Python]
+    A1b[MATH 2210/2940 Linear Algebra]
+    A1c[MATH 1920/2930 Multivariable Calculus]
+    A1d[ENGRD 2700 or ORIE 3500 Probability & Statistics]
+    A1e[ORIE 3300 Optimization I (recommended)]
+    A1f[Stochastic Processes<br/>(e.g., ORIE 3510/4520, recommended)]
   end
 
   %% ===== FOUNDATIONS =====
-  subgraph B1[Foundations in Data & Optimization]
-    B1a[ORIE 3320<br/>Optimization for AI]
-    B1b[ORIE 3741<br/>Learning with Big Messy Data]
+  subgraph B1[Foundations in Supply Chain & Decision Modeling]
+    B1a[ORIE 4126 Principles of Supply Chain Management]
+    B1b[ORIE 4820 Data-Driven Decision Modeling & Analysis]
   end
 
-  %% ===== CORE METHODS =====
-  subgraph C1[Core Machine Learning & Inference]
-    C1a[ORIE 4740<br/>Statistical Data Mining I]
-    C1b[ORIE 4750<br/>Foundations of Causal Inference<br/>(AY 26–27 first offering)]
+  %% ===== SYSTEMS & APPLICATIONS =====
+  subgraph C1[Manufacturing & Service Systems]
+    C1a[ORIE 4100 Manufacturing Systems Design]
+    C1b[ORIE 4130 Service System Modeling & Design]
   end
 
-  %% ===== ADVANCED DECISION SYSTEMS =====
-  subgraph D1[Advanced Intelligent Decision Systems]
-    D1a[ORIE 4570<br/>Reinforcement Learning<br/>with OR Applications]
-  end
-
-  %% ===== PATH LINKS =====
-
-  A1a --> B1b
+  %% ===== LINKS FROM PREREQS =====
   A1a --> B1a
+  A1a --> B1b
   A1b --> B1b
   A1c --> B1a
   A1d --> B1a
   A1d --> B1b
+  A1e --> B1a
+  A1e --> B1b
+  A1f --> C1b
 
+  %% ===== LINKS BETWEEN CORE COURSES =====
   B1a --> C1a
+  B1a --> C1b
   B1b --> C1a
-  C1a --> C1b
-  C1a --> D1a
-  C1b --> D1a
+  B1b --> C1b
+
 ```
 
 ## Prerequisite Courses:
-- Programming in Python — data wrangling, numerical computing, notebooks
+- Programming in Python — data wrangling, implementation of supply chain and operations models
 - Linear Algebra (e.g., MATH 2210/2940) — model representations, SVD/PCA, optimization basics
 - Calculus (single & multi-variable) — gradients, optimization, continuous models
-- Probability & Statistics (e.g., ORIE 3500/ENGRD 2700) — inference, estimation, hypothesis testing
-- Data Structures & Algorithms — efficient processing and scalability
+- Probability & Statistics (e.g., ORIE 3500/ENGRD 2700) — demand uncertainty, performance metrics, and data-driven analysis.
+- Optimization -- linear programming and basic optimization, useful for inventory models, network flows, and decision models
+- Stochastic Processes -- queueing, arrival processes, and Markov models
 
 ## Core Courses:  
 - **ORIE 4100 - Manufacturing Systems Design: A Consulting Boot Camp**
-  - What you'll learn: Python data stack, basic statistics, regression/classification, and end-to-end DS workflow.
-  - Essential? Yes—intro foundation for engineers entering DS/ML.
-  - Recommended workflow: Take early; build a small analysis project with proper documentation.
-  - Prereqs and why: Intro programming; basic calculus helps.
+  - What you'll learn: design and analysis of manufacturing logistics systems, collaboration in real-world industry projects
+  - Essential? Recommended for students interested in consulting and project management.
+  - Recommended workflow: Take after some intro probability/stats courses. Taking as an underclassmen could help with job search.
+  - Prereqs and why: None explicitly. 
 - **ORIE 4126 - Principles of Supply Chain Management**
-  - What you'll learn: Probability, random variables, estimation, hypothesis testing—core for inference.
-  - Essential? Yes—statistics underpins DS rigor and experimentation.
-  - Recommended workflow: Before applied DS/ML courses.
-  - Prereqs and why: Calculus; comfort with algebraic manipulation.
+  - What you'll learn: key principles of effective supply chains through a collection of cases. 
+  - Essential? Yes -- introduces basic analysis & design of global supply chains, along with analytical techniques.
+  - Recommended workflow: take as elective junior or senior year.
+  - Prereqs and why: mathematical programming and stochastic processes, as well as familiarity with Python to complete assignments.
 - **ORIE 4130 - Service System Modeling & Design**
-  - What you'll learn: Data wrangling, EDA, visualization, modeling basics, and communication of results.
-  - Essential? Recommended if you want a broader intro with viz/communication.
-  - Recommended workflow: Early; pair with a project using real datasets.
-  - Prereqs and why: Programming fundamentals; basic stats helpful.
+  - What you'll learn: techniques for analysis and design of service systems like contact centers, airlines, insurance, and healthcare.
+  - Essential? Recommended for real-world applications of stochastic processes.
+  - Recommended workflow: ORIE elective, take after prerequisities.
+  - Prereqs and why: Probability and statistics helpful for understanding random nature of service systems, as well as stochastic processes.
 - **ORIE 4820 - Data-Driven Decision Modeling and Analysis**
-  - What you'll learn: Practical DS at scale—messy data, pipelines, experiment design, and deployment.
-  - Essential? Recommended for industry readiness.
-  - Recommended workflow: After an intro DS/ML course; focus on reproducibility.
-  - Prereqs and why: Python data stack; basic ML and SQL helpful.
-- **ORIE 6336 - Integer Programming**
-  - What you'll learn: Efficient algorithms and systems for DS; performance-aware data processing and learning.
-  - Essential? Elective bridging algorithms/systems with DS.
-  - Recommended workflow: After core DS and algorithms; profile and optimize pipelines.
-  - Prereqs and why: Algorithms, data structures, and Python/SQL tooling.
+  - What you'll learn: classical modeling techniques with modern computational tools, particularly Excel, Python, and Power BI.
+  - Essential? Yes -- helpful for consulting and data analytics roles.
+  - Recommended workflow: before or during junior year; helpful for interview and career prep.
+  - Prereqs and why: basic probability and statistics, as well as linear programming; will be solved using computational tools.
