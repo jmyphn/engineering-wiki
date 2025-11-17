@@ -91,8 +91,8 @@ flowchart TD
 <details>
 <summary>Info</summary>
 
-      - What you'll learn: Radar fundamentals, antennas, remote sensing principles, radar signal processing, and application-specific performance analysis.
-      - Essential? Recommended for radar/remote-sensing specializations and aerospace/EO applications.
-      - Recommended workflow: After physics and signals; pair with antenna/propagation exposure.
-      - Prereqs and why: PHYS 2208/2213 and signals to understand wave propagation and system response.
+  - What you'll learn: Radar fundamentals, antennas, remote sensing principles, radar signal processing, and application-specific performance analysis.
+  - Essential? Recommended for radar/remote-sensing specializations and aerospace/EO applications.
+  - Recommended workflow: After physics and signals; pair with antenna/propagation exposure.
+  -  Prereqs and why: PHYS 2208/2213 and signals to understand wave propagation and system response.
 </details>
