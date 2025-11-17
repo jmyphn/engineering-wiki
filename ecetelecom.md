@@ -15,49 +15,32 @@ Career Paths: Telecommunications Engineer, Network Engineer, RF Engineer, Satell
 ```mermaid
 flowchart TD
   subgraph A1[Prerequisites]
-    SIG["ECE 3250 - Signals & Systems"]
-    PROB["ECE 3100 - Probability & Inference"]
+    PROB["Probability & Inference (ECE 3100)"]
+    SIG["Signals & Systems (ECE 3250)"]
     LA["Linear Algebra"]
     CALC["Calculus"]
     PROG["Programming (Python/Matlab)"]
   end
 
-  subgraph F1[Foundations]
-    F1a["ECE 4210 - Communication Systems"]
-    F1b["ECE 3250 - Signals & Systems"]
+  subgraph C[Core Courses]
+    C3100["ECE 3100 - Probability and Inference"]
+    C3250["ECE 3250 - Signals & Systems"]
+    C4110["ECE 4110 - Random Signals in Communications"]
+    C4150["ECE 4150 - GPS: Theory and Design"]
+    C4450["ECE 4450 - Computer Networks & Telecommunications"]
+    C4670["ECE 4670 - Digital Communication System Design"]
+    C4870["ECE 4870 - Radar / Remote Sensing"]
   end
 
-  subgraph P1[Physical Layer]
-    GPS["ECE 4150 - GPS: Theory and Design"]
-  end
-
-  subgraph D1[Digital and Info]
-    DSP["ECE 4255 - Digital Signal Processing"]
-    DCOM["ECE 4670 - Digital Communication System Design"]
-  end
-
-  subgraph W1[Wireless and Networks]
-    WIRE["ECE 4230 - Wireless Communications"]
-    NET["ECE 4450 - Computer Networks & Telecommunications"]
-    RAND["ECE 4110 - Random Signals in Communications"]
-  end
-
-  subgraph S1[Remote Sensing]
-    RAD["ECE 4870 - Radar / Remote Sensing"]
-  end
-
-  SIG --> F1b
-  PROB --> DCOM
-  LA --> DSP
-  CALC --> F1a
-  PROG --> F1a
-
-  F1a --> GPS
-  F1b --> DSP
-  F1b --> DCOM
-  DCOM --> WIRE
-  F1a --> NET
-  F1a --> RAD
+  PROB --> C3100
+  SIG  --> C3250
+  PROB --> C4110
+  SIG  --> C4110
+  C3250 --> C4670
+  C3250 --> C4110
+  PROG --> C4670
+  CALC --> C4150
+  PROB --> C4870
 ```
 
 ## Prerequisite Courses:
