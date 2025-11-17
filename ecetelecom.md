@@ -54,11 +54,13 @@ flowchart TD
 - **ECE 3100 - Probability and Inference**
   <details>
   <summary>Details</summary>
+    <ul>
 
-  - What you'll learn: Probability models, distributions, expectation/variance, limit theorems, Monte Carlo, and basics of statistical inference for engineering problems.
-  - Essential? Yes — underpins detection, estimation, and coding analyses used across telecom.
-  - Recommended workflow: Take early; use immediately for communications and signal-processing classes.
-  - Prereqs and why: Math background (MATH 2940) to follow rigorous probability and inference concepts.
+    <li>- What you'll learn: Probability models, distributions, expectation/variance, limit theorems, Monte Carlo, and basics of statistical inference for engineering problems.</li>
+    <li>- Essential? Yes — underpins detection, estimation, and coding analyses used across telecom.</li>
+    <li>- Recommended workflow: Take early; use immediately for communications and signal-processing classes.</li>
+    <li>- Prereqs and why: Math background (MATH 2940) to follow rigorous probability and inference concepts.</li>
+    </ul>
 
   </details>
 
