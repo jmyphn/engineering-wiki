@@ -15,9 +15,9 @@ Field of study that concerns solving mathematical programs for decision making.
 flowchart TD
 
   %% ===== PREREQS =====
-  subgraph A1[📌 Prerequisite Courses]
+  subgraph A1[Prerequisites]
     A1a[CS 1110/1112 Intro Python]
-    A1b[Data Structures & Algorithms<br/>(CS 2110 recommended)]
+    A1b[Data Structures & Algorithms (CS 2110 recommended)]
     A1c[MATH 2210/2940 Linear Algebra]
     A1d[MATH 1920/2930 Multivariable Calculus]
     A1e[ENGRD 2700 or ORIE 3500 Probability & Statistics]
@@ -32,7 +32,7 @@ flowchart TD
   %% ===== CORE METHODS =====
   subgraph C1[Core Optimization Methods]
     C1a[ORIE 4330 Discrete Models]
-    C1b[ORIE 4340 Applications of Optimization<br/>Modeling & Computation]
+    C1b[ORIE 4340 Applications of Optimization - Modeling & Computation]
   end
 
   %% ===== ADVANCED & THEORY =====

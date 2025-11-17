@@ -21,7 +21,7 @@ flowchart TD
     A1c[MATH 1920/2930 Multivariable Calculus]
     A1d[ENGRD 2700 or ORIE 3500 Probability & Statistics]
     A1e[ORIE 3300 Optimization I (recommended)]
-    A1f[Stochastic Processes<br/>(e.g., ORIE 3510/4520, recommended)]
+    A1f[Stochastic Processes(e.g., ORIE 3510/4520, recommended)]
   end
 
   %% ===== FOUNDATIONS =====
