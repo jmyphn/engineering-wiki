@@ -76,10 +76,14 @@ flowchart TD
   - Prereqs and why: Advanced math/engineering course background to handle orbital and estimation math.
 
 - **ECE 4450 - Computer Networks and Telecommunications**
+<details>
+<summary>Info</summary>
+
   - What you'll learn: Networking principles with emphasis on wireless tech (cellular, WiFi, Bluetooth), routing/switching, congestion control, and security/privacy impacts.
   - Essential? Recommended for systems and network-focused telecom careers.
   - Recommended workflow: After core comms and probability courses; combine with networking projects or seminars.
   - Prereqs and why: ECE 3100 or equivalent probability knowledge to reason about traffic and stochastic behaviors.
+</details>
 
 - **ECE 4670 - Digital Communication System Design**
 <details>
