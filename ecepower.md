@@ -101,19 +101,20 @@ flowchart TD
 
 ## Core Courses:   
 
-- **ECE 4800 - Optimal Systems Analysis**
+
+-**ECE 4800 - Optimal Systems Analysis**
   - What you'll learn: Optimization theory and algorithms for system analysis and design — linear programming, convex programming, duality, and applied examples (networks, control, circuits, signal processing).
   - Essential? Recommended for analytical foundations used across power systems and control problems.
   - Recommended workflow: Take early once calculus/linear algebra background is solid; use alongside applied systems courses.
   - Prereqs and why: Linear algebra and calculus (for convex analysis and algorithm derivations); programming helpful for implementations.
 
-- **ECE 4510 - Power Systems I**
+**ECE 4510 - Power Systems I**
   - What you'll learn: Power system modeling and analysis — transmission line models, transformers and per‑unit systems, generator models, network matrices, power flow analysis, real/reactive power control, and voltage control.
   - Essential? Yes. Forms the baseline course for further power systems study.
   - Recommended workflow: Take as an early core course for the power track; follow with Power Systems II and power electronics.
   - Prereqs and why: Circuits and signals (for network models), linear algebra (for network matrices), programming (for power flow computation).
 
-- **ECE 4560 - Power Electronics**
+**ECE 4560 - Power Electronics**
   - What you'll learn: Analysis and design of power converters — semiconductor device modeling, thermal and magnetic component modeling, EMI filter design, and switching converter control.
   - Essential? Recommended for students pursuing power conversion or hardware-focused roles.
   - Recommended workflow: Take after basic circuits and some power systems exposure; complement with lab/project work.
