@@ -51,7 +51,7 @@ flowchart TD
 - Programming in Python/Matlab — for simulation, algorithm prototyping, and signal analysis.
 
 ## Core Courses:
-**ECE 3100 - Probability and Inference**
+- **ECE 3100 - Probability and Inference**
   <details>
   <summary>Details</summary>
 
@@ -62,7 +62,7 @@ flowchart TD
 
   </details>
 
-**ECE 3250 - Signals and Systems**
+- **ECE 3250 - Signals and Systems**
   <details>
   <summary>Details</summary>
 
@@ -73,7 +73,7 @@ flowchart TD
 
   </details>
 
-**ECE 4110 - Random Signals in Communications**
+- **ECE 4110 - Random Signals in Communications**
   <details>
   <summary>Details</summary>
 
@@ -84,7 +84,7 @@ flowchart TD
 
   </details>
 
-**ECE 4150 - GPS: Theory and Design**
+- **ECE 4150 - GPS: Theory and Design**
   <details>
   <summary>Details</summary>
 
@@ -95,7 +95,7 @@ flowchart TD
 
   </details>
 
-**ECE 4450 - Computer Networks and Telecommunications**
+- **ECE 4450 - Computer Networks and Telecommunications**
   <details>
   <summary>Details</summary>
 
@@ -106,29 +106,24 @@ flowchart TD
 
   </details>
 
-
-<div>
-  <strong>ECE 4670 - Digital Communication System Design</strong>
-    <details>
-    <summary>Details</summary>
+- **ECE 4670 - Digital Communication System Design**
+  <details>
+  <summary>Details</summary>
 
   - What you'll learn: Practical transceiver algorithms, OFDM-based system design, wireless-channel considerations, and implementation of a working communication system.
   - Essential? Yes for hands-on digital comms and modern wireless system design.
   - Recommended workflow: After ECE 3250 and ECE 2720; implement BER simulations and OFDM projects.
   - Prereqs and why: DSP and signals background to design reliable digital links under channel impairments.
-    </details>
-</div>
 
+  </details>
 
-<div>
-  <strong>ECE 4870 - Introduction to Radar Remote Sensing</strong>
-    <details>
-    <summary>Details</summary>
-    
+- **ECE 4870 - Introduction to Radar Remote Sensing**
+  <details>
+  <summary>Details</summary>
+
   - What you'll learn: Radar fundamentals, antennas, remote sensing principles, radar signal processing, and application-specific performance analysis.
   - Essential? Recommended for radar/remote-sensing specializations and aerospace/EO applications.
   - Recommended workflow: After physics and signals; pair with antenna/propagation exposure.
   - Prereqs and why: PHYS 2208/2213 and signals to understand wave propagation and system response.
 
-    </details>
-</div>
+  </details>
