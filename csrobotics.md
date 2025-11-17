@@ -13,13 +13,6 @@ Field of interdisciplinary study on the design, construction, and deployment of 
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> F[Foundations]
-  F --> M[Autonomous Mobile Robots]
-  F --> L[Robot Learning]
-  F --> D[Re-Designing Robots]
-  M --> R[Fast Robots]
-  L --> G[Grad: Learning for Robot Decision Making]
-
   subgraph A1[Prerequisites]
     A1a[Python/C++]
     A1b[Linear Algebra]

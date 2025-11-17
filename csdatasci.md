@@ -13,11 +13,6 @@ Interdisciplinary field of study that uses algorithms and systems to extrapolate
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> B[Intro DS]
-  B --> C[Probability/Stats]
-  C --> D[Tools & Practice]
-  D --> E[Efficient DS]
-
   subgraph A1[Prerequisites]
     A1a[Python]
     A1b[Linear Algebra]

@@ -13,18 +13,6 @@ Field of study on the design and construction of computer systems and their comp
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> B[Digital Logic]
-  B --> C[Computer Architecture]
-  C --> D[Advanced Architecture]
-  A --> E[Systems Programming]
-  E --> F[Operating Systems]
-  F --> G[Embedded Systems]
-  E --> H[Compilers]
-  H --> I[Advanced Compilers]
-  C --> J[HPC]
-  J --> K[Parallel Architectures]
-  F --> J
-
   subgraph A1[Prerequisites]
     A1a[C/C++/Rust]
     A1b[Data Structures]

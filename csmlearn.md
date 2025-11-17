@@ -15,13 +15,6 @@ Field of study on how artificial intelligence algorithms learn how to perform ta
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> B[Core ML]
-  B --> C[Deep Learning]
-  B --> D[Reinforcement Learning]
-  C --> E[ML Systems]
-  B --> F[AI Breadth]
-  C --> G[Theory]
-
   subgraph A1[Prerequisites]
     A1a[Python/Numpy]
     A1b[Linear Algebra]
