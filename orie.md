@@ -15,16 +15,16 @@ Field of study on quantitative analysis and management of financial instruments 
 Career paths: quantitative trading, risk management, portfolio management, financial analyst
 
 ## [Data, Decisions, and AI 🤖]({{ '/oriemajor-datadecisions/' | relative_url }})                 
-Field of interdisciplinary study on the design, construction, and deployment of physical robots and robotic automation algorithms. Includes perception, planning, control, embedded systems, and human–robot interaction across simulation and real platforms. 
+Field of study at the intersection of statistics and computation. Leverages advanced statistical methods such as data mining and machine learning techniques to extract actionable, meaningful insights from large data.
 
-Career paths: robotics engineer, autonomy/perception engineer, controls engineer, and robotic systems integrator across manufacturing, logistics, mobility, and healthcare.
+Career paths: data scientist, machine learning/artificial intelligence engineer, decision scientist, reinforcement learning researcher
 
 ## [Supply Chain and Operations 📦]({{ '/oriemajor-supplychain/' | relative_url }})       
-Field of study on the design and construction of computer systems and their component parts. Focuses on architecture, operating systems, compilers, concurrency, memory, and performance profiling. 
+Field of study on the design, planning, execution, control, and monitoring of supply chain activities with the objective of creating profit, building competitive infrastructure, and synchronizing supply with demand. Utilizes data analytics, decision-support tools, and optimization methods.
 
-Career paths: systems software engineer, performance engineer, embedded/firmware engineer, kernel/OS engineer, and compiler engineer.
+Career paths: supply chain analyst, manufacturing engineer, operations analyst, strategy consultant, product management
 
 ## [Optimization 🔧]({{ '/oriemajor-opt/' | relative_url }})
-Field of study on the design, construction, and analysis of large-scale systems. Covers consensus, fault tolerance, replication, scalability, data consistency models, and observability. 
+Field of study focused on solving mathematical programs -- linear, integer, stochastic -- under various constraints. Leverages algorithms and computational methods for decision-making in various industries like healthcare, energy, and finance.
 
-Career paths: distributed systems/backend engineer, SRE/platform engineer, database engineer, and cloud infrastructure engineer.
+Career paths: logistics analyst, quantitative/optimization roles in finance, product & pricing optimization (Uber, airlines, e-commerce, etc.), research scientist & academia
