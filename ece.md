@@ -13,7 +13,7 @@ permalink: /ecemajor/
 ## [Power Systems 🔌]({{ '/ecemajor-powersystems/' | relative_url }})     
 Field of study on the generation, transmission, distribution, and control of electrical power. Involves designing, analyzing, and maintaining function of power systems.
 
-Career Paths: Power Systems Engineer, Tansmission Line Design Engineer, Field Service Engineer, Power Electronics Engineer, Controls Engineer
+Career Paths: Power Systems Engineer, Transmission Line Design Engineer, Field Service Engineer, Power Electronics Engineer, Controls Engineer
 
 
 ## [Robotics 🤖]({{ '/ecemajor-robotics/' | relative_url }})                  
