@@ -58,22 +58,45 @@ flowchart TD
 
 ## Core Courses:  
 - **ORIE 4100 - Manufacturing Systems Design: A Consulting Boot Camp**
-  - What you'll learn: design and analysis of manufacturing logistics systems, collaboration in real-world industry projects
-  - Essential? Recommended for students interested in consulting and project management.
-  - Recommended workflow: Take after some intro probability/stats courses. Taking as an underclassmen could help with job search.
-  - Prereqs and why: None explicitly. 
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: design and analysis of manufacturing logistics systems, collaboration in real-world industry projects</li>
+    <li>- Essential? Recommended for students interested in consulting and project management.</li>
+    <li>- Recommended workflow: Take after some intro probability/stats courses. Taking as an underclassmen could help with job search.</li>
+    <li>- Prereqs and why: None explicitly.</li>
+    </ul>
+  </details>
+
 - **ORIE 4126 - Principles of Supply Chain Management**
-  - What you'll learn: key principles of effective supply chains through a collection of cases. 
-  - Essential? Yes -- introduces basic analysis & design of global supply chains, along with analytical techniques.
-  - Recommended workflow: take as elective junior or senior year.
-  - Prereqs and why: mathematical programming and stochastic processes, as well as familiarity with Python to complete assignments.
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: key principles of effective supply chains through a collection of cases.</li>
+    <li>- Essential? Yes -- introduces basic analysis & design of global supply chains, along with analytical techniques.</li>
+    <li>- Recommended workflow: take as elective junior or senior year.</li>
+    <li>- Prereqs and why: mathematical programming and stochastic processes, as well as familiarity with Python to complete assignments.</li>
+    </ul>
+  </details>
+
 - **ORIE 4130 - Service System Modeling & Design**
-  - What you'll learn: techniques for analysis and design of service systems like contact centers, airlines, insurance, and healthcare.
-  - Essential? Recommended for real-world applications of stochastic processes.
-  - Recommended workflow: ORIE elective, take after prerequisities.
-  - Prereqs and why: Probability and statistics helpful for understanding random nature of service systems, as well as stochastic processes.
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: techniques for analysis and design of service systems like contact centers, airlines, insurance, and healthcare.</li>
+    <li>- Essential? Recommended for real-world applications of stochastic processes.</li>
+    <li>- Recommended workflow: ORIE elective, take after prerequisities.</li>
+    <li>- Prereqs and why: Probability and statistics helpful for understanding random nature of service systems, as well as stochastic processes.</li>
+    </ul>
+  </details>
+
 - **ORIE 4820 - Data-Driven Decision Modeling and Analysis**
-  - What you'll learn: classical modeling techniques with modern computational tools, particularly Excel, Python, and Power BI.
-  - Essential? Yes -- helpful for consulting and data analytics roles.
-  - Recommended workflow: before or during junior year; helpful for interview and career prep.
-  - Prereqs and why: basic probability and statistics, as well as linear programming; will be solved using computational tools.
+  <details>
+  <summary>Details</summary>
+    <ul>
+    <li>- What you'll learn: classical modeling techniques with modern computational tools, particularly Excel, Python, and Power BI.</li>
+    <li>- Essential? Yes -- helpful for consulting and data analytics roles.</li>
+    <li>- Recommended workflow: before or during junior year; helpful for interview and career prep.</li>
+    <li>- Prereqs and why: basic probability and statistics, as well as linear programming; will be solved using computational tools.</li>
+    </ul>
+  </details>
