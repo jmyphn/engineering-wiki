@@ -33,7 +33,7 @@ Field of study focused on the design and innovation of electronic systems and in
 
 Career Paths: Analog Circuit Engineer, RF Design Engineer, IC Design Engineer, PCB Layout Engineer, Power Electronics Engineer
 
-## [Telecommunications 📶]({{ '/ecemajor-telecom/' | relative_url }})
+## [Telecommunications 📡]({{ '/ecemajor-telecom/' | relative_url }})
 Field of study focused on the transmission of information over long distances via electrical or electronic means. Involves the design and development of communication systems using cables, radio waves, digital networks and other technologies. 
 
 Career Paths: Telecommunications Engineer, Network Engineer, RF Engineer, Satellite Engineer, Signal Processing Engineer

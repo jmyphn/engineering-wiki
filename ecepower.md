@@ -85,38 +85,60 @@ flowchart TD
     A1h --> D1a
     A1a --> E1a
 ```
-## Prequisites:
-- Programming in Python/Matlab (CS 1110/1112)
-- Linear Algebra (MATH 2940)
-- Calculus II, III (MATH 1910, 1920)
-- Thermodynamics* (ENGRD 2210)
-- Probability (ECE 3100)
-- Signals & Systems (ECE 3250)
-- Circuits (ECE 2100)
+## Prerequisite Courses:
+- Programming in Python/Matlab (CS 1110/1112) — for simulations, scripting power‑flow tools, and numerical experiments.
+- Linear Algebra (MATH 2940) — for network matrices, modal analysis, and optimization foundations.
+- Calculus II, III (MATH 1910, 1920) — for continuous modeling, differential equations, and numerical methods.
+- Thermodynamics* (ENGRD 2210) — useful for MAE 5010 and understanding energy conversion/efficiency.
+- Probability (ECE 3100) — for uncertainty modeling, load forecasting, and state estimation.
+- Signals & Systems (ECE 3250) — for control, filtering, and system dynamics.
+- Circuits (ECE 2100) — for basic network models and component behavior in power systems.
 
 *Mainly for MAE 5010
 
 ## Helpful Non-Core Courses:
-- Microelectronics (ECE 3150)
+- Microelectronics (ECE 3150) — useful for device‑level understanding relevant to power electronics and converter design.
 
 ## Core Courses:   
-- **ECE 4800 - Optimal Systems Analysis**  
-    Introduction to optimization theory and algorithms for system analysis and design. Topics include linear programming, convex programming, duality. We may touch dynamic programming around the end if time permits. Application will be discussed in various areas including geometric problems, networks, control, circuits, signal processing, and communications.
 
-- **ECE 4510 - Power Systems I**  
-    Acquaints students with modern electric power system modeling, analysis and computation. Stresses analysis techniques appropriate for power system modeling, analysis and power flow computation. Topics include transmission line models, transformers and per unit system, generator models, network matrices, power flow analysis and computation, real and reactive power control, voltage control, economic dispatch
+- **ECE 4800 - Optimal Systems Analysis**
+  - What you'll learn: Optimization theory and algorithms for system analysis and design — linear programming, convex programming, duality, and applied examples (networks, control, circuits, signal processing).
+  - Essential? Recommended for analytical foundations used across power systems and control problems.
+  - Recommended workflow: Take early once calculus/linear algebra background is solid; use alongside applied systems courses.
+  - Prereqs and why: Linear algebra and calculus (for convex analysis and algorithm derivations); programming helpful for implementations.
 
-- **ECE 4560 - Power Electronics**  
-    The course will also introduce seniors and first-year graduate students to other advanced topics which are required for the analysis and design of power converters, including power semiconductor device modeling, thermal modeling, magnetic component modeling, electromagnetic interference (EMI) filter design, and switching converter control design, at a level appropriate for them. This course will equip ECE students with the theoretical and practical skills needed to innovate in the area of power electronics, and allow them to succeed in graduate school and in the rapidly growing job market for power electronic engineers.
+- **ECE 4510 - Power Systems I**
+  - What you'll learn: Power system modeling and analysis — transmission line models, transformers and per‑unit systems, generator models, network matrices, power flow analysis, real/reactive power control, and voltage control.
+  - Essential? Yes. Forms the baseline course for further power systems study.
+  - Recommended workflow: Take as an early core course for the power track; follow with Power Systems II and power electronics.
+  - Prereqs and why: Circuits and signals (for network models), linear algebra (for network matrices), programming (for power flow computation).
 
-- **ECE 4520 - Power Systems II**  
-    Examines the operations of electric power systems, the smart grid, and electricity markets. Topics include modeling of power systems, power flow analysis, economic dispatch, optimal power flow, unit commitments, electricity markets, demand response, smart grid technology, and transactive energy.
+- **ECE 4560 - Power Electronics**
+  - What you'll learn: Analysis and design of power converters — semiconductor device modeling, thermal and magnetic component modeling, EMI filter design, and switching converter control.
+  - Essential? Recommended for students pursuing power conversion or hardware-focused roles.
+  - Recommended workflow: Take after basic circuits and some power systems exposure; complement with lab/project work.
+  - Prereqs and why: Circuits and microelectronics background (device and component models); control basics helpful for converter control design.
 
-- **ECE 5870 - Energy Seminar I**  
-    Energy Seminars will explore energy-related topics of emerging, contemporary and historical interest. An abbreviated list of subjects explored in the seminars includes: global energy resources, energy generation technologies (present and future), energy storage options, environmental impacts and climate change mitigation, energy policy, and energy delivery economics and systems. Seminar speakers will be distinguished practicing engineers and executives from industry and government as well as faculty members from several departments at Cornell, and other academic institutions.
+- **ECE 4520 - Power Systems II**
+  - What you'll learn: Power system operations, smart grid concepts, electricity markets — power flow analysis, economic dispatch, optimal power flow, unit commitment, demand response, and transactive energy.
+  - Essential? Yes for students interested in operations, markets, and grid-level analysis.
+  - Recommended workflow: After Power Systems I; pair with optimization coursework for OPF/dispatch topics.
+  - Prereqs and why: Power Systems I and optimization (for economic dispatch and OPF); programming for simulations and market analysis.
 
-- **ECE 5880 - Energy Seminar II**  
-    Energy Seminars will continue to explore energy-related topics of emerging, contemporary and historical interest. An abbreviated list of subjects explored in the seminars includes: global energy resources, energy generation technologies (present and future), energy storage options, environmental impacts and climate change mitigation, energy policy, and energy delivery economics and systems. Seminar speakers will be distinguished practicing engineers and executives from industry and government as well as faculty members from several departments at Cornell, and other academic institutions.
+- **ECE 5870 - Energy Seminar I**
+  - What you'll learn: Broad energy topics — generation technologies, storage, environmental impacts, policy, and system economics via guest speakers and case studies.
+  - Essential? Useful for breadth and industry perspective; good for networking.
+  - Recommended workflow: Take anytime during the major, especially when exploring career directions.
+  - Prereqs and why: No strict technical prereqs; prior energy or systems exposure improves seminar discussions.
 
-- **MAE 5010 - Future Energy Systems**  
-    Critically examines the technology of energy systems that will be acceptable in a world faced with global climate change, local pollution, and declining supplies of oil. The focus is on renewable energy sources (wind, solar, biomass), but other non-carbon-emitting sources (nuclear) and lowered-carbon sources (co-generative gas turbine plants, fuel cells) also are studied. Both the devices and the overall systems are analyzed. The course explains calculations to support capacity, efficiency, and productivity of renewable energy. Cost and economics of renewables are explored as well, along with the connection to U.S. and global climate and energy policy.
+- **ECE 5880 - Energy Seminar II**
+  - What you'll learn: Continued exploration of contemporary energy topics, policy, and technologies with varied speakers.
+  - Essential? Useful for continued breadth and exposure to current industry/research topics.
+  - Recommended workflow: Follow 5870 or take in a later term to deepen topical understanding.
+  - Prereqs and why: Similar to 5870; background in core energy concepts helps.
+
+- **MAE 5010 - Future Energy Systems**
+  - What you'll learn: Analysis of renewable and other low‑carbon energy systems — capacity, efficiency, productivity, and economics; systems-level tradeoffs and policies.
+  - Essential? Recommended for students interested in energy systems, renewables, and policy intersection.
+  - Recommended workflow: Take after core power/energy exposure; useful for capstone or research in energy systems.
+  - Prereqs and why: Thermodynamics and basic power/energy background (for device/system analysis); economics/policy familiarity helpful but not mandatory.
