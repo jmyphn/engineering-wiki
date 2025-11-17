@@ -51,7 +51,7 @@ flowchart TD
 - Programming in Python/Matlab — for simulation, algorithm prototyping, and signal analysis.
 
 ## Core Courses:
-- **ECE 3100 - Probability and Inference**
+**ECE 3100 - Probability and Inference**
   <details>
   <summary>Details</summary>
 
@@ -62,7 +62,7 @@ flowchart TD
 
   </details>
 
-- **ECE 3250 - Signals and Systems**
+**ECE 3250 - Signals and Systems**
   <details>
   <summary>Details</summary>
 
@@ -73,7 +73,7 @@ flowchart TD
 
   </details>
 
-- **ECE 4110 - Random Signals in Communications**
+**ECE 4110 - Random Signals in Communications**
   <details>
   <summary>Details</summary>
 
@@ -84,7 +84,7 @@ flowchart TD
 
   </details>
 
-- **ECE 4150 - GPS: Theory and Design**
+**ECE 4150 - GPS: Theory and Design**
   <details>
   <summary>Details</summary>
 
@@ -95,7 +95,7 @@ flowchart TD
 
   </details>
 
-- **ECE 4450 - Computer Networks and Telecommunications**
+**ECE 4450 - Computer Networks and Telecommunications**
   <details>
   <summary>Details</summary>
 
@@ -106,7 +106,7 @@ flowchart TD
 
   </details>
 
-- **ECE 4670 - Digital Communication System Design**
+**ECE 4670 - Digital Communication System Design**
 <div>
     <details>
     <summary>Details</summary>
@@ -119,7 +119,7 @@ flowchart TD
     </details>
 </div>
 
-- **ECE 4870 - Introduction to Radar Remote Sensing**
+**ECE 4870 - Introduction to Radar Remote Sensing**
 <div>
     <details>
     <summary>Details</summary>
