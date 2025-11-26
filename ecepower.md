@@ -84,6 +84,12 @@ flowchart TD
     A1f --> D1a
     A1h --> D1a
     A1a --> E1a
+
+    classDef redNode fill:#FF9999,stroke:#333,stroke-width:2px;
+    classDef greenNode fill:#BDFFA4,stroke:#333,stroke-width:2px;
+
+    class A,D redNode;
+    class C,E greenNode;
 ```
 ## Prerequisite Courses:
 - Programming in Python/Matlab (CS 1110/1112) — for simulations, scripting power‑flow tools, and numerical experiments.
