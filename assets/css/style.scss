@@ -37,3 +37,48 @@
     opacity: 1;
   }
 }
+
+:root {
+  --beamer-border-color: #d0d7de;
+  --beamer-title-bg: #f6f8fa;
+  --beamer-title-text: #24292f;
+  --beamer-content-bg: #ffffff;
+  --beamer-content-text: #24292f;
+}
+
+[data-color-mode="dark"] {
+  --beamer-border-color: #444;
+  --beamer-title-bg: #333;
+  --beamer-title-text: #fff;
+  --beamer-content-bg: #222;
+  --beamer-content-text: #c9d1d9;
+}
+
+.beamer-block {
+  border: 1px solid var(--beamer-border-color);
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  overflow: hidden; /* Ensures the inner elements are contained within the rounded corners */
+}
+
+.beamer-block-title {
+  background-color: var(--beamer-title-bg);
+  color: var(--beamer-title-text);
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-bottom: 1px solid var(--beamer-border-color);
+}
+
+.beamer-block-content {
+  padding: 1em;
+  background-color: var(--beamer-content-bg);
+  color: var(--beamer-content-text);
+}
+
+.beamer-block-content p {
+  margin-top: 0;
+}
+
+.beamer-block-content p:last-child {
+  margin-bottom: 0;
+}

@@ -84,153 +84,209 @@ flowchart TD
 - **CS 4320 - Intro to Databases**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Relational models, SQL, transactions, indexing, and query optimization.</li>
-    <li>- Essential? Yes—databases underpin most distributed systems.</li>
-    <li>- Recommended workflow: Take early; build a small app with real queries and indexes.</li>
-    <li>- Prereqs and why: Data structures/algorithms (for query plans/indexes).</li>
+    <li>What you'll learn: Relational models, SQL, transactions, indexing, and query optimization.</li>
+    <li>Essential? Yes—databases underpin most distributed systems.</li>
+    <li>Recommended workflow: Take early; build a small app with real queries and indexes.</li>
+    <li>Prereqs and why: Data structures/algorithms (for query plans/indexes).</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 4321 - Databases Practicum**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Implementation-focused DB components and advanced SQL usage.</li>
-    <li>- Essential? Recommended to cement DB fundamentals.</li>
-    <li>- Recommended workflow: Co-enroll with 4320; prioritize the project work.</li>
-    <li>- Prereqs and why: 4320 concepts; strong programming.</li>
+    <li>What you'll learn: Implementation-focused DB components and advanced SQL usage.</li>
+    <li>Essential? Recommended to cement DB fundamentals.</li>
+    <li>Recommended workflow: Co-enroll with 4320; prioritize the project work.</li>
+    <li>Prereqs and why: 4320 concepts; strong programming.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 4410 - Operating Systems**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Processes, scheduling, memory, filesystems—core for understanding nodes in a cluster.</li>
-    <li>- Essential? Yes for backend/distributed roles.</li>
-    <li>- Recommended workflow: Before/alongside core distributed systems.</li>
-    <li>- Prereqs and why: C/concurrency; architecture basics.</li>
+    <li>What you'll learn: Processes, scheduling, memory, filesystems—core for understanding nodes in a cluster.</li>
+    <li>Essential? Yes for backend/distributed roles.</li>
+    <li>Recommended workflow: Before/alongside core distributed systems.</li>
+    <li>Prereqs and why: C/concurrency; architecture basics.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 4411 - Operating Systems Practicum**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Hands-on OS labs that map to real server behavior.</li>
-    <li>- Essential? Recommended to deepen OS understanding.</li>
-    <li>- Recommended workflow: With 4410.</li>
-    <li>- Prereqs and why: C debugging, 4410.</li>
+    <li>What you'll learn: Hands-on OS labs that map to real server behavior.</li>
+    <li>Essential? Recommended to deepen OS understanding.</li>
+    <li>Recommended workflow: With 4410.</li>
+    <li>Prereqs and why: C debugging, 4410.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 4414 - Systems Programming**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Low-level networking, concurrency, and robust systems development.</li>
-    <li>- Essential? Recommended setup for distributed/back-end.</li>
-    <li>- Recommended workflow: Before 5414; build networked services.</li>
-    <li>- Prereqs and why: Data structures; comfort with memory/concurrency.</li>
+    <li>What you'll learn: Low-level networking, concurrency, and robust systems development.</li>
+    <li>Essential? Recommended setup for distributed/back-end.</li>
+    <li>Recommended workflow: Before 5414; build networked services.</li>
+    <li>Prereqs and why: Data structures; comfort with memory/concurrency.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 4450 - Intro to Computer Networks**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: TCP/IP, routing, congestion control, application protocols.</li>
-    <li>- Essential? Yes—networking is the substrate for distributed systems.</li>
-    <li>- Recommended workflow: Before or alongside 5414.</li>
-    <li>- Prereqs and why: OS/sockets helpful; probability for performance analysis.</li>
+    <li>What you'll learn: TCP/IP, routing, congestion control, application protocols.</li>
+    <li>Essential? Yes—networking is the substrate for distributed systems.</li>
+    <li>Recommended workflow: Before or alongside 5414.</li>
+    <li>Prereqs and why: OS/sockets helpful; probability for performance analysis.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 5414 - Distributed Systems**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Replication, consensus, fault tolerance, consistency, and distributed coordination.</li>
-    <li>- Essential? Core course for the concentration.</li>
-    <li>- Recommended workflow: After OS and networks; implement labs like Raft/KV store.</li>
-    <li>- Prereqs and why: Concurrency (for correctness), networking (for RPC), algorithms (for proofs/invariants).</li>
+    <li>What you'll learn: Replication, consensus, fault tolerance, consistency, and distributed coordination.</li>
+    <li>Essential? Core course for the concentration.</li>
+    <li>Recommended workflow: After OS and networks; implement labs like Raft/KV store.</li>
+    <li>Prereqs and why: Concurrency (for correctness), networking (for RPC), algorithms (for proofs/invariants).</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 5416 - Cloud Computing and ML Hosting**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Cloud primitives, containers, orchestration, service meshes, ML serving.</li>
-    <li>- Essential? Recommended for modern infra/platform roles.</li>
-    <li>- Recommended workflow: After 5414; deploy real services on cloud-like platforms.</li>
-    <li>- Prereqs and why: OS, networking, scripting/automation.</li>
+    <li>What you'll learn: Cloud primitives, containers, orchestration, service meshes, ML serving.</li>
+    <li>Essential? Recommended for modern infra/platform roles.</li>
+    <li>Recommended workflow: After 5414; deploy real services on cloud-like platforms.</li>
+    <li>Prereqs and why: OS, networking, scripting/automation.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 5430 - System Security**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Threat models, vulnerabilities, secure design, and practical defenses.</li>
-    <li>- Essential? Recommended—security is integral to production systems.</li>
-    <li>- Recommended workflow: Anywhere after systems programming.</li>
-    <li>- Prereqs and why: OS and networking fundamentals.</li>
+    <li>What you'll learn: Threat models, vulnerabilities, secure design, and practical defenses.</li>
+    <li>Essential? Recommended—security is integral to production systems.</li>
+    <li>Recommended workflow: Anywhere after systems programming.</li>
+    <li>Prereqs and why: OS and networking fundamentals.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 5470 - Systems for Large-Scale Machine Learning**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Distributed training/inference, data pipelines, accelerators, and scaling ML systems.</li>
-    <li>- Essential? Elective for ML infra/platform roles.</li>
-    <li>- Recommended workflow: After 5414 and ML basics; run distributed experiments.</li>
-    <li>- Prereqs and why: ML basics, OS/networking, and parallel computing helpful.</li>
+    <li>What you'll learn: Distributed training/inference, data pipelines, accelerators, and scaling ML systems.</li>
+    <li>Essential? Elective for ML infra/platform roles.</li>
+    <li>Recommended workflow: After 5414 and ML basics; run distributed experiments.</li>
+    <li>Prereqs and why: ML basics, OS/networking, and parallel computing helpful.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 6410 - Advanced Systems**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Research papers in systems; OS, storage, networking, and distributed topics.</li>
-    <li>- Essential? Advanced elective for research-oriented paths.</li>
-    <li>- Recommended workflow: After 5414; replicate or extend a paper result.</li>
-    <li>- Prereqs and why: Strong systems background; reading and experimentation skills.</li>
+    <li>What you'll learn: Research papers in systems; OS, storage, networking, and distributed topics.</li>
+    <li>Essential? Advanced elective for research-oriented paths.</li>
+    <li>Recommended workflow: After 5414; replicate or extend a paper result.</li>
+    <li>Prereqs and why: Strong systems background; reading and experimentation skills.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 6412 - Advanced Topics in Operating Systems**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Deep dives into OS topics such as virtualization, scheduling, and isolation.</li>
-    <li>- Essential? Elective for OS-heavy interests.</li>
-    <li>- Recommended workflow: After 4410/6410.</li>
-    <li>- Prereqs and why: 4410 concepts; strong C and debugging.</li>
+    <li>What you'll learn: Deep dives into OS topics such as virtualization, scheduling, and isolation.</li>
+    <li>Essential? Elective for OS-heavy interests.</li>
+    <li>Recommended workflow: After 4410/6410.</li>
+    <li>Prereqs and why: 4410 concepts; strong C and debugging.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **CS 6450 - Advanced Computer Networking**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Advanced routing, data center networks, congestion control, programmable networks.</li>
-    <li>- Essential? Elective for network/infra specialists.</li>
-    <li>- Recommended workflow: After 4450.</li>
-    <li>- Prereqs and why: 4450 networking fundamentals; probability/perf analysis helpful.</li>
+    <li>What you'll learn: Advanced routing, data center networks, congestion control, programmable networks.</li>
+    <li>Essential? Elective for network/infra specialists.</li>
+    <li>Recommended workflow: After 4450.</li>
+    <li>Prereqs and why: 4450 networking fundamentals; probability/perf analysis helpful.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 6960 - Datacenter Networking Systems**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Data center fabrics, transport, telemetry, and reliability at scale.</li>
-    <li>- Essential? Advanced elective for data center/network-focused roles.</li>
-    <li>- Recommended workflow: After core networking; pair with a measurement project.</li>
-    <li>- Prereqs and why: Strong networking and systems background.</li>
+    <li>What you'll learn: Data center fabrics, transport, telemetry, and reliability at scale.</li>
+    <li>Essential? Advanced elective for data center/network-focused roles.</li>
+    <li>Recommended workflow: After core networking; pair with a measurement project.</li>
+    <li>Prereqs and why: Strong networking and systems background.</li>
     </ul>
+    </div>
+  </div>
   </details>
