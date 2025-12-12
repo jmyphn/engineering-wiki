@@ -65,65 +65,89 @@ flowchart TD
 - **ORIE 3300 - Optimization I**
   <details>
   <summary>Details</summary>
+    <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: foundation of linear programming and solutions by the simplex method.</li>
-    <li>- Essential? Yes, intro to optimization.</li>
-    <li>- Recommended workflow: Take early, pre-req for many ORIE & optimization courses.</li>
-    <li>- Prereqs and why: Linear algebra, which is the mathematical foundation of linear programming.</li>
+    <li>What you'll learn: foundation of linear programming and solutions by the simplex method.</li>
+    <li>Essential? Yes, intro to optimization.</li>
+    <li>Recommended workflow: Take early, pre-req for many ORIE & optimization courses.</li>
+    <li>Prereqs and why: Linear algebra, which is the mathematical foundation of linear programming.</li>
     </ul>
+    </div>
+    </div>
   </details>
 
 - **ORIE 3310 - Optimization II**
   <details>
   <summary>Details</summary>
+    <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: formulation of integer programming, dynamic programming, and network optimization models.</li>
-    <li>- Essential? Yes, into to nonlinear optimization methods.</li>
-    <li>- Recommended workflow: Take following ORIE 3300. Useful for designing algorithms and discrete models.</li>
-    <li>- Prereqs and why: Optimization I, helps to have the linear programming background, as the class does reference LPs.</li>
+    <li>What you'll learn: formulation of integer programming, dynamic programming, and network optimization models.</li>
+    <li>Essential? Yes, into to nonlinear optimization methods.</li>
+    <li>Recommended workflow: Take following ORIE 3300. Useful for designing algorithms and discrete models.</li>
+    <li>Prereqs and why: Optimization I, helps to have the linear programming background, as the class does reference LPs.</li>
     </ul>
+    </div>
+    </div>
   </details>
 
 - **ORIE 4330 - Discrete Models**
   <details>
   <summary>Details</summary>
+    <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: graphs, networks, and discrete optimization. Fundamental models and algorithmic techniques for analysis.</li>
-    <li>- Essential? No, especially if you've taken algorithms (4820).</li>
-    <li>- Recommended workflow: After Optimization I, but seems there are many overlaps with Optimization II.</li>
-    <li>- Prereqs and why: Optimization I and Data Structures. Need understanding of basic algorithms like BFS, DFS to analyze and design discrete models.</li>
+    <li>What you'll learn: graphs, networks, and discrete optimization. Fundamental models and algorithmic techniques for analysis.</li>
+    <li>Essential? No, especially if you've taken algorithms (4820).</li>
+    <li>Recommended workflow: After Optimization I, but seems there are many overlaps with Optimization II.</li>
+    <li>Prereqs and why: Optimization I and Data Structures. Need understanding of basic algorithms like BFS, DFS to analyze and design discrete models.</li>
     </ul>
+    </div>
+    </div>
   </details>
 
 - **ORIE 4340 - Applications of Optimization: Modeling & Computation**
   <details>
   <summary>Details</summary>
+    <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: applications of optimization models in manufacturing, retail, distribution, etc.</li>
-    <li>- Essential? No, but provides real-world applications of Optimization I (3300) concepts.</li>
-    <li>- Recommended workflow: any time after ORIE 3300</li>
-    <li>- Prereqs and why: optimization I; need LP fundamental knowledge.</li>
+    <li>What you'll learn: applications of optimization models in manufacturing, retail, distribution, etc.</li>
+    <li>Essential? No, but provides real-world applications of Optimization I (3300) concepts.</li>
+    <li>Recommended workflow: any time after ORIE 3300</li>
+    <li>Prereqs and why: optimization I; need LP fundamental knowledge.</li>
     </ul>
+    </div>
+    </div>
   </details>
 
 - **ORIE 6300 - Mathematical Programming I**
   <details>
   <summary>Details</summary>
+    <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: rigorous treatment of theory & computational techniques of linear programming and its extensions.</li>
-    <li>- Essential? Recommended for students interested in graduate studies in Operations Research.</li>
-    <li>- Recommended workflow: after intro optimization courses; proof-based math courses would be helpful too.</li>
-    <li>- Prereqs and why: no formal prereqs, but should have familiarity with linear algebra, basic analysis, and proofs.</li>
+    <li>What you'll learn: rigorous treatment of theory & computational techniques of linear programming and its extensions.</li>
+    <li>Essential? Recommended for students interested in graduate studies in Operations Research.</li>
+    <li>Recommended workflow: after intro optimization courses; proof-based math courses would be helpful too.</li>
+    <li>Prereqs and why: no formal prereqs, but should have familiarity with linear algebra, basic analysis, and proofs.</li>
     </ul>
+    </div>
+    </div>
   </details>
 
 - **ORIE 6336 - Integer Programming**
   <details>
   <summary>Details</summary>
+    <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: optimization methods over mixed-integer sets and mathematical foundations of such problems.</li>
-    <li>- Essential? Recommended for those interested in graduate studies in OR/optimization.</li>
-    <li>- Recommended workflow: after 6300</li>
-    <li>- Prereqs and why: Mathematical Programming I (6300). Need LP foundations.</li>
+    <li>What you'll learn: optimization methods over mixed-integer sets and mathematical foundations of such problems.</li>
+    <li>Essential? Recommended for those interested in graduate studies in OR/optimization.</li>
+    <li>Recommended workflow: after 6300</li>
+    <li>Prereqs and why: Mathematical Programming I (6300). Need LP foundations.</li>
     </ul>
+    </div>
+    </div>
   </details>

@@ -13,11 +13,6 @@ Field of interdisciplinary study on the design, construction, and deployment of 
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> F[Foundations]
-  F --> P[Perception]
-  F --> M[Mobile Robots]
-  F --> E[Embedded / Real-Time]
-  F --> R[Advanced Topics]
 
   subgraph A1[Prerequisites]
     A1a[C/C++ & MATLAB]
@@ -82,54 +77,74 @@ flowchart TD
 - **ECE 4160 - Fast Robots**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Real-time embedded control, sensing, and high-speed autonomy on constrained hardware; dynamic behaviors, reactive control on microcontrollers.</li>
-    <li>- Essential? Recommended for embedded/real-time robotics and performance-critical systems.</li>
-    <li>- Recommended workflow: After or alongside foundational robotics; focus on control loops, timing, hardware debugging, and rapid prototyping.</li>
-    <li>- Prereqs and why: Signals/control basics (for stability), C/C++ and microcontroller experience (for real-time), physics/mechanics (for system modeling).</li>
+    <li>What you'll learn: Real-time embedded control, sensing, and high-speed autonomy on constrained hardware; dynamic behaviors, reactive control on microcontrollers.</li>
+    <li>Essential? Recommended for embedded/real-time robotics and performance-critical systems.</li>
+    <li>Recommended workflow: After or alongside foundational robotics; focus on control loops, timing, hardware debugging, and rapid prototyping.</li>
+    <li>Prereqs and why: Signals/control basics (for stability), C/C++ and microcontroller experience (for real-time), physics/mechanics (for system modeling).</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 4180 - Autonomous Mobile Robots**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Sensing, perception, localization, mapping, path planning, motion planning, obstacle avoidance, and multi-robot control techniques.</li>
-    <li>- Essential? Highly recommended for mobile robotics; comprehensive overview of end-to-end autonomous systems.</li>
-    <li>- Recommended workflow: After or alongside ECE 4770; pair with practical implementations and simulation.</li>
-    <li>- Prereqs and why: MATLAB programming and foundational robotics knowledge (kinematics, planning concepts).</li>
+    <li>What you'll learn: Sensing, perception, localization, mapping, path planning, motion planning, obstacle avoidance, and multi-robot control techniques.</li>
+    <li>Essential? Highly recommended for mobile robotics; comprehensive overview of end-to-end autonomous systems.</li>
+    <li>Recommended workflow: After or alongside ECE 4770; pair with practical implementations and simulation.</li>
+    <li>Prereqs and why: MATLAB programming and foundational robotics knowledge (kinematics, planning concepts).</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 4240 - Robot Perception**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Sensor fusion, intelligent processing of heterogeneous sensor measurements, artificial vision, acoustic sensing, filtering, neural/Bayesian networks, and information theory for robotics.</li>
-    <li>- Essential? Recommended for perception-heavy applications and sensor integration work.</li>
-    <li>- Recommended workflow: After ECE 4770 (foundations); pair with signal processing and machine learning.</li>
-    <li>- Prereqs and why: ENGRD 2112, MATH 2940, MATH 4710 (or equivalent probability/statistics) for filtering and Bayesian methods.</li>
+    <li>What you'll learn: Sensor fusion, intelligent processing of heterogeneous sensor measurements, artificial vision, acoustic sensing, filtering, neural/Bayesian networks, and information theory for robotics.</li>
+    <li>Essential? Recommended for perception-heavy applications and sensor integration work.</li>
+    <li>Recommended workflow: After ECE 4770 (foundations); pair with signal processing and machine learning.</li>
+    <li>Prereqs and why: ENGRD 2112, MATH 2940, MATH 4710 (or equivalent probability/statistics) for filtering and Bayesian methods.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 4760 - Digital System Design Using Microcontrollers**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Real-time digital system design using microprocessor-based embedded controllers; design, debug, and implementation of small systems through lab work.</li>
-    <li>- Essential? Recommended for hands-on embedded robotics and microcontroller programming.</li>
-    <li>- Recommended workflow: After or alongside ECE 4160; emphasize collaborative lab work and practical system integration.</li>
-    <li>- Prereqs and why: ECE 3140/CS 3420 for digital design foundations and toolchain competence.</li>
+    <li>What you'll learn: Real-time digital system design using microprocessor-based embedded controllers; design, debug, and implementation of small systems through lab work.</li>
+    <li>Essential? Recommended for hands-on embedded robotics and microcontroller programming.</li>
+    <li>Recommended workflow: After or alongside ECE 4160; emphasize collaborative lab work and practical system integration.</li>
+    <li>Prereqs and why: ECE 3140/CS 3420 for digital design foundations and toolchain competence.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 4770 - Foundations of Robotics**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Computational fundamentals for robotics — kinematics, state estimation, motion planning, and controls; mathematical foundations and how sub-fields integrate into intelligent robot behavior.</li>
-    <li>- Essential? Yes. Core introduction to robotics theory and algorithms across all specializations.</li>
-    <li>- Recommended workflow: Take early as the foundation course; use theoretical and programming exercises to build intuition.</li>
-    <li>- Prereqs and why: CS 1112, CS 2110, CS 2800, MATH 1920, MATH 2940 (programming, algorithms, and math fundamentals for kinematics/planning).</li>
+    <li>What you'll learn: Computational fundamentals for robotics — kinematics, state estimation, motion planning, and controls; mathematical foundations and how sub-fields integrate into intelligent robot behavior.</li>
+    <li>Essential? Yes. Core introduction to robotics theory and algorithms across all specializations.</li>
+    <li>Recommended workflow: Take early as the foundation course; use theoretical and programming exercises to build intuition.</li>
+    <li>Prereqs and why: CS 1112, CS 2110, CS 2800, MATH 1920, MATH 2940 (programming, algorithms, and math fundamentals for kinematics/planning).</li>
     </ul>
+    </div>
+  </div>
   </details>

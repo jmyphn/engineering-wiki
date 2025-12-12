@@ -174,12 +174,16 @@
                                     details: []
                                 };
 
-                                // Get detail items
-                                var detailList = li.querySelector('ul');
-                                if (detailList) {
-                                    detailList.querySelectorAll('li').forEach(function (detailLi) {
-                                        course.details.push(detailLi.textContent.trim());
-                                    });
+                                // Get detail items from a details > ul or details > div > div > ul structure
+                                var detailsTag = li.querySelector('details');
+                                if (detailsTag) {
+                                    // This will find the 'ul' regardless of whether it's in a beamer-block or not.
+                                    var detailList = detailsTag.querySelector('ul');
+                                    if (detailList) {
+                                        detailList.querySelectorAll('li').forEach(function (detailLi) {
+                                            course.details.push(detailLi.textContent.trim());
+                                        });
+                                    }
                                 }
 
                                 courses[courseCode] = course;

@@ -15,11 +15,6 @@ Career Paths: Embedded Systems Engineer, FPGA Engineer, Firmware Engineer, Syste
 ## Flow Map
 ```mermaid
 flowchart TD
-  A[Prereqs] --> F[Foundations]
-  F --> S[Software/Firmware]
-  F --> H[Hardware/FPGA]
-  F --> R[Real-Time & Robotics]
-  F --> G[Grad/Advanced Topics]
 
   subgraph A1[Prerequisites]
     A1a[Python/Embedded C]
@@ -77,78 +72,106 @@ flowchart TD
 - **ECE 2300 - Intro To Digital Logic**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Basics of digital circuits, Boolean logic, combinational/sequential design, and simple microcontroller I/O.</li>
-    <li>- Essential? Yes — foundational for embedded and hardware courses.</li>
-    <li>- Recommended workflow: Take early; pair with a circuits lab and small hardware projects.</li>
-    <li>- Prereqs and why: Intro programming and basic circuits to connect software to physical I/O.</li>
+    <li>What you'll learn: Basics of digital circuits, Boolean logic, combinational/sequential design, and simple microcontroller I/O.</li>
+    <li>Essential? Yes — foundational for embedded and hardware courses.</li>
+    <li>Recommended workflow: Take early; pair with a circuits lab and small hardware projects.</li>
+    <li>Prereqs and why: Intro programming and basic circuits to connect software to physical I/O.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 3140 - Embedded Systems**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Microcontrollers, assembly/embedded C, interrupts, I/O, concurrency, scheduling, and real-time constraints.</li>
-    <li>- Essential? Yes — core firmware knowledge for embedded roles.</li>
-    <li>- Recommended workflow: After ECE 2300; start hands-on projects using peripherals and debugging tools.</li>
-    <li>- Prereqs and why: ECE 2300 (digital logic) and programming experience to implement reliable firmware.</li>
+    <li>What you'll learn: Microcontrollers, assembly/embedded C, interrupts, I/O, concurrency, scheduling, and real-time constraints.</li>
+    <li>Essential? Yes — core firmware knowledge for embedded roles.</li>
+    <li>Recommended workflow: After ECE 2300; start hands-on projects using peripherals and debugging tools.</li>
+    <li>Prereqs and why: ECE 2300 (digital logic) and programming experience to implement reliable firmware.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 4740 - Intro to Digital (VLSI) Design**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Synchronous VLSI design, CMOS logic, layout, timing, CAD tools, and electrical/performance tradeoffs.</li>
-    <li>- Essential? Optional — important for VLSI/ASIC career tracks.</li>
-    <li>- Recommended workflow: Take after digital systems or ECE 3150; pair with FPGA/HDL practice.</li>
-    <li>- Prereqs and why: Digital design background (ECE 3150 or equivalent) to understand layout and timing constraints.</li>
+    <li>What you'll learn: Synchronous VLSI design, CMOS logic, layout, timing, CAD tools, and electrical/performance tradeoffs.</li>
+    <li>Essential? Optional — important for VLSI/ASIC career tracks.</li>
+    <li>Recommended workflow: Take after digital systems or ECE 3150; pair with FPGA/HDL practice.</li>
+    <li>Prereqs and why: Digital design background (ECE 3150 or equivalent) to understand layout and timing constraints.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 4750 - Computer Architecture**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Processor/memory/network building blocks, pipelining, caching, multicore design, and an RTL project workflow.</li>
-    <li>- Essential? Recommended for architecture, FPGA, and system-level designers.</li>
-    <li>- Recommended workflow: After ECE 3140/CS 3420; complete the RTL project sequence to gain practical RTL experience.</li>
-    <li>- Prereqs and why: HDL familiarity and digital systems background to finish the lab sequence.</li>
+    <li>What you'll learn: Processor/memory/network building blocks, pipelining, caching, multicore design, and an RTL project workflow.</li>
+    <li>Essential? Recommended for architecture, FPGA, and system-level designers.</li>
+    <li>Recommended workflow: After ECE 3140/CS 3420; complete the RTL project sequence to gain practical RTL experience.</li>
+    <li>Prereqs and why: HDL familiarity and digital systems background to finish the lab sequence.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 4760 - Digital System Design Using Microcontrollers**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Design of microprocessor-based real-time systems through paired lab projects focused on design, debug, and integration.</li>
-    <li>- Essential? Recommended for hands-on embedded system development.</li>
-    <li>- Recommended workflow: Take after ECE 3140; emphasize collaborative lab work.</li>
-    <li>- Prereqs and why: ECE 3140/CS 3420 for digital design and toolchain competence.</li>
+    <li>What you'll learn: Design of microprocessor-based real-time systems through paired lab projects focused on design, debug, and integration.</li>
+    <li>Essential? Recommended for hands-on embedded system development.</li>
+    <li>Recommended workflow: Take after ECE 3140; emphasize collaborative lab work.</li>
+    <li>Prereqs and why: ECE 3140/CS 3420 for digital design and toolchain competence.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 5725 - Design with Embedded Operating Systems**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: Embedded Linux, application and system programming on microcontroller platforms, hardware interfacing, and a semester project.</li>
-    <li>- Essential? Recommended for Linux-based embedded development and system integration work.</li>
-    <li>- Recommended workflow: After ECE 3140; build end-to-end projects on Raspberry Pi–like targets.</li>
-    <li>- Prereqs and why: ECE 3140/CS 3420 to ensure students can handle system-level programming and hardware interfaces.</li>
+    <li>What you'll learn: Embedded Linux, application and system programming on microcontroller platforms, hardware interfacing, and a semester project.</li>
+    <li>Essential? Recommended for Linux-based embedded development and system integration work.</li>
+    <li>Recommended workflow: After ECE 3140; build end-to-end projects on Raspberry Pi–like targets.</li>
+    <li>Prereqs and why: ECE 3140/CS 3420 to ensure students can handle system-level programming and hardware interfaces.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 - **ECE 5760 - Advanced Microcontroller Design**
   <details>
   <summary>Details</summary>
+  <div class="beamer-block">
+    <div class="beamer-block-content">
     <ul>
-    <li>- What you'll learn: SoC/advanced microcontroller design, custom peripherals, RTOS integration, and HW/SW co-design in labs.</li>
-    <li>- Essential? Recommended for SoC/FPGA specialization and hardware-accelerated systems.</li>
-    <li>- Recommended workflow: After foundational digital/embedded courses; integrate HW/SW projects.</li>
-    <li>- Prereqs and why: Recommended ECE 5725 and prior HDL/digital experience for reliable SoC development.</li>
+    <li>What you'll learn: SoC/advanced microcontroller design, custom peripherals, RTOS integration, and HW/SW co-design in labs.</li>
+    <li>Essential? Recommended for SoC/FPGA specialization and hardware-accelerated systems.</li>
+    <li>Recommended workflow: After foundational digital/embedded courses; integrate HW/SW projects.</li>
+    <li>Prereqs and why: Recommended ECE 5725 and prior HDL/digital experience for reliable SoC development.</li>
     </ul>
+    </div>
+  </div>
   </details>
 
 
