@@ -25,3 +25,6 @@ Click the below links to view the available majors and their concentrations!
 - [Electrical & Computer Engineering]({{ '/ecemajor/' | relative_url }})
 - [Operations Research & Engineering]({{ '/oriemajor/' | relative_url }})
 - [Mechanical and Aerospace Engineering]({{ '/maemajor/' | relative_url }})
+
+## 👥 About Us
+[Get to know us!]({{ '/aboutus/' | relative_url }}) 

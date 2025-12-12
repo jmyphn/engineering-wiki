@@ -8,7 +8,7 @@ permalink: /aboutus/
 [Home]({{ '/' | relative_url }}) → About Us
 
 
-Hi! Thanks for visiting our guide. We are all currently seniors in the College of Engineering. We created this guide for our ENGRC 3500 Communications class and hope that it makes course selection and career preparation a smoother process for you!
+Hi! Thanks for visiting our guide. We are all currently seniors in the College of Engineering. We created this guide for our ENGRC 3500 Communications class. We understand that navigating multiple fragmented resources to select classes in preparation for future careers can be frustrating and confusing and hope that this guide makes course selection and career preparation a smoother process for you!
 
 Shayon Mountain - Electrical and Computer Engineering
 Jimmy Phan - Computer Science
