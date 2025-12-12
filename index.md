@@ -24,3 +24,4 @@ Click the below links to view the available majors and their concentrations!
 - [Computer Science]({{ '/csmajor/' | relative_url }})
 - [Electrical & Computer Engineering]({{ '/ecemajor/' | relative_url }})
 - [Operations Research & Engineering]({{ '/oriemajor/' | relative_url }})
+- [Mechanical and Aerospace Engineering]({{ '/maemajor/' | relative_url }})
