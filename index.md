@@ -28,3 +28,6 @@ Click the below links to view the available majors and their concentrations!
 
 ## 👥 About Us
 [Get to know us!]({{ '/aboutus/' | relative_url }}) 
+
+## 📌 Want to contribute or see an issue?
+Click [here]({{'https://www.github.com/jmyphn/engineering-wiki/'}}) to visit the repository to make a pull request or open an issue ticket.
